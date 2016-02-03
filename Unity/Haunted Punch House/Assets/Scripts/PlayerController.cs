@@ -28,7 +28,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () 
     {
 	
-        if(Input.GetKeyDown (KeyCode.Space) && grounded)
+        if(Input.GetKeyDown (KeyCode.W) && grounded)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);//gets value of character that he already has while moving sideways
         }
