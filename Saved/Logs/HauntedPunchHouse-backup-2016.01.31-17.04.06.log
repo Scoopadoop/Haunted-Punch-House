@@ -1,0 +1,818 @@
+﻿[2016.01.31-21.58.52:163][  0]Log file open, 01/31/16 15:58:52
+[2016.01.31-21.58.52:163][  0]LogInit:Display: Running engine for game: HauntedPunchHouse
+[2016.01.31-21.58.52:163][  0]LogPlatformFile: Not using cached read wrapper
+[2016.01.31-21.58.52:163][  0]LogInit:Display: RandInit(1833907903) SRandInit(1833907904).
+[2016.01.31-21.58.52:163][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.01.31-21.58.52:163][  0]LogStats: Stats thread started at 0.067035
+[2016.01.31-21.58.52:163][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-21.58.52:163][  0]LogInit: API Version: 2758231
+[2016.01.31-21.58.52:163][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.01.31-21.58.52:163][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.01.31-21.58.52:163][  0]LogInit: Build Configuration: Development
+[2016.01.31-21.58.52:163][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.01.31-21.58.52:163][  0]LogInit: Command line:  
+[2016.01.31-21.58.52:163][  0]LogInit: Base directory: D:/Student Data/My Programs/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.01.31-21.58.52:163][  0]LogInit: Rocket: 1
+[2016.01.31-21.58.52:169][  0]LogInit: Using libcurl 7.41.0
+[2016.01.31-21.58.52:169][  0]LogInit:  - built for x86_64-pc-win32
+[2016.01.31-21.58.52:169][  0]LogInit:  - supports SSL with WinSSL
+[2016.01.31-21.58.52:169][  0]LogInit:  - other features:
+[2016.01.31-21.58.52:169][  0]LogInit:      CURL_VERSION_SSL
+[2016.01.31-21.58.52:169][  0]LogInit:      CURL_VERSION_IPV6
+[2016.01.31-21.58.52:169][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.01.31-21.58.52:169][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.01.31-21.58.52:169][  0]LogInit:      CURL_VERSION_IDN
+[2016.01.31-21.58.52:169][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.01.31-21.58.52:169][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.01.31-21.58.52:169][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.01.31-21.58.52:169][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.01.31-21.58.52:169][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.01.31-21.58.52:176][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.01.31-21.58.52:186][  0]LogInit: Object subsystem initialized
+[2016.01.31-21.58.52:190][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-21.58.52:190][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.01.31-21.58.52:202][  0]LogInit: Computer: C-5820B173ED7A
+[2016.01.31-21.58.52:202][  0]LogInit: User: Patrick
+[2016.01.31-21.58.52:202][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.01.31-21.58.52:202][  0]LogInit: High frequency timer resolution =2.143472 MHz
+[2016.01.31-21.58.52:202][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.01.31-21.58.52:202][  0]LogMemory: Platform Memory Stats for Windows
+[2016.01.31-21.58.52:202][  0]LogMemory: Process Physical Memory: 55.86 MB used, 55.86 MB peak
+[2016.01.31-21.58.52:202][  0]LogMemory: Process Virtual Memory: 55.71 MB used, 55.71 MB peak
+[2016.01.31-21.58.52:202][  0]LogMemory: Physical Memory: 3482.40 MB used, 8067.11 MB total
+[2016.01.31-21.58.52:202][  0]LogMemory: Virtual Memory: 383.12 MB used, 134217728.00 MB total
+[2016.01.31-21.58.52:239][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.01.31-21.58.52:943][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.01.31-21.58.52:943][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 1 output[s]
+[2016.01.31-21.58.53:542][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R7 M260X (Feature Level 11_0)
+[2016.01.31-21.58.53:542][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 0 output[s]
+[2016.01.31-21.58.53:584][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.01.31-21.58.53:584][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 0 output[s]
+[2016.01.31-21.58.53:584][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.01.31-21.58.53:591][  0]LogD3D11RHI: !Direct3DDevice
+[2016.01.31-21.58.53:591][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.01.31-21.58.53:596][  0]LogD3D11RHI: Async texture creation enabled
+[2016.01.31-21.58.53:603][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Documents/GitHub/Haunted-Punch-House/Intermediate/Shaders/WorkingDirectory/8820/).
+[2016.01.31-21.58.53:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/6753A7AE4D019558E3225B9696302BE8/'.
+[2016.01.31-21.58.53:604][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.01.31-21.58.54:807][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.01.31-21.58.54:815][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.01.31-21.58.54:820][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.01.31-21.58.54:826][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.01.31-21.58.54:832][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.01.31-21.58.54:835][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.01.31-21.58.54:838][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.01.31-21.58.54:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.01.31-21.58.54:846][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.01.31-21.58.54:850][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.01.31-21.58.54:855][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.01.31-21.58.54:865][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.01.31-21.58.54:865][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.01.31-21.58.54:866][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.01.31-21.58.54:885][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.01.31-21.58.54:888][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.01.31-21.58.54:891][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.01.31-21.58.54:897][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.01.31-21.58.54:897][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.01.31-21.58.54:987][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/Haunted-Punch-House/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/Haunted-Punch-House/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.01.31-21.58.55:062][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.01.31-21.58.55:167][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.01.31-21.58.55:179][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.01.31-21.58.55:421][  0]LogInit: Selected Device Profile: [Windows]
+[2016.01.31-21.58.55:424][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.01.31-21.58.55:663][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.01.31-21.58.55:663][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.01.31-21.58.55:972][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.01.31-21.58.57:135][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.01.31-21.58.57:239][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2016.01.31-21.58.57:467][  0]SourceControl: Info Source control is disabled
+[2016.01.31-21.58.57:468][  0]SourceControl: Info Source control is disabled
+[2016.01.31-21.58.57:476][  0]SourceControl: Info Source control is disabled
+[2016.01.31-21.58.57:486][  0]SourceControl: Info Source control is disabled
+[2016.01.31-21.58.57:753][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.01.31-21.58.57:753][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.01.31-21.58.57:839][  0]LogEngine: Initializing Engine...
+[2016.01.31-21.58.57:844][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-21.58.57:845][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.01.31-21.58.58:277][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.01.31-21.58.58:282][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-21.58.58:789][  0]LogInit: FAudioDevice initialized.
+[2016.01.31-21.58.58:830][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.01.31-21.58.58:843][  0]LogInit: Texture streaming: Enabled
+[2016.01.31-21.58.58:852][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.01.31-21.58.58:852][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.01.31-21.58.58:853][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c6e9426d40c3b6b6523f2fbbe6b659f3|ad566b4d291d47d9a4654a9438cd3aeb|76f780ed-daf0-401c-9ba3-dae71ad2bf29
+[2016.01.31-21.58.58:853][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.01.31-21.58.58:876][  0]LogInit: Transaction tracking system initialized
+[2016.01.31-21.58.58:928][  0]BlueprintLog: New page: Editor Load
+[2016.01.31-21.58.59:052][  0]LocalizationService: Info Localization service is disabled
+[2016.01.31-21.58.59:711][  0]LogConsoleResponse:Display: 
+[2016.01.31-21.58.59:928][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.01.31-21.59.00:053][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/' took 0.01s
+[2016.01.31-21.59.00:053][  0]SourceControl: Info Source control is disabled
+[2016.01.31-21.59.00:054][  0]LogFactory: FactoryCreateBinary: PackFactory with PackFactory (0 0 D:/Student Data/My Programs/Epic Games/4.10/FeaturePacks/StarterContent.upack)
+[2016.01.31-21.59.00:060][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2016.01.31-21.59.00:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2016.01.31-21.59.00:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2016.01.31-21.59.00:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2016.01.31-21.59.00:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2016.01.31-21.59.00:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2016.01.31-21.59.00:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2016.01.31-21.59.00:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2016.01.31-21.59.00:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2016.01.31-21.59.00:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2016.01.31-21.59.00:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2016.01.31-21.59.00:351][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2016.01.31-21.59.00:371][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Collapse01.uasset"
+[2016.01.31-21.59.00:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Collapse02.uasset"
+[2016.01.31-21.59.00:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2016.01.31-21.59.00:438][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Explosion01.uasset"
+[2016.01.31-21.59.00:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Explosion02.uasset"
+[2016.01.31-21.59.00:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2016.01.31-21.59.00:486][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Fire01.uasset"
+[2016.01.31-21.59.00:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2016.01.31-21.59.00:521][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2016.01.31-21.59.00:532][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2016.01.31-21.59.00:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Light01.uasset"
+[2016.01.31-21.59.00:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2016.01.31-21.59.00:555][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Light02.uasset"
+[2016.01.31-21.59.00:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2016.01.31-21.59.00:587][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Smoke01.uasset"
+[2016.01.31-21.59.00:610][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2016.01.31-21.59.00:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2016.01.31-21.59.00:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2016.01.31-21.59.00:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2016.01.31-21.59.00:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2016.01.31-21.59.00:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2016.01.31-21.59.00:903][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2016.01.31-21.59.00:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Steam01.uasset"
+[2016.01.31-21.59.00:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2016.01.31-21.59.00:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2016.01.31-21.59.00:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2016.01.31-21.59.00:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2016.01.31-21.59.00:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2016.01.31-21.59.01:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2016.01.31-21.59.01:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2016.01.31-21.59.01:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2016.01.31-21.59.01:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2016.01.31-21.59.01:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2016.01.31-21.59.01:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2016.01.31-21.59.01:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2016.01.31-21.59.01:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2016.01.31-21.59.01:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2016.01.31-21.59.01:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2016.01.31-21.59.01:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2016.01.31-21.59.01:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2016.01.31-21.59.03:201][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2016.01.31-21.59.03:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2016.01.31-21.59.03:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Maps/Minimal_Default.umap"
+[2016.01.31-21.59.03:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Maps/StarterMap.umap"
+[2016.01.31-21.59.03:562][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2016.01.31-21.59.03:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2016.01.31-21.59.03:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2016.01.31-21.59.03:619][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2016.01.31-21.59.03:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2016.01.31-21.59.03:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2016.01.31-21.59.03:666][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2016.01.31-21.59.03:685][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2016.01.31-21.59.03:702][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2016.01.31-21.59.03:710][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2016.01.31-21.59.03:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2016.01.31-21.59.03:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2016.01.31-21.59.03:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2016.01.31-21.59.03:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2016.01.31-21.59.03:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2016.01.31-21.59.03:789][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2016.01.31-21.59.03:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2016.01.31-21.59.03:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Glass.uasset"
+[2016.01.31-21.59.03:818][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2016.01.31-21.59.03:856][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2016.01.31-21.59.03:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2016.01.31-21.59.03:875][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2016.01.31-21.59.03:889][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2016.01.31-21.59.03:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2016.01.31-21.59.03:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2016.01.31-21.59.03:933][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2016.01.31-21.59.03:942][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2016.01.31-21.59.03:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2016.01.31-21.59.03:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2016.01.31-21.59.03:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2016.01.31-21.59.03:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2016.01.31-21.59.04:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2016.01.31-21.59.04:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2016.01.31-21.59.04:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2016.01.31-21.59.04:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2016.01.31-21.59.04:051][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2016.01.31-21.59.04:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2016.01.31-21.59.04:073][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2016.01.31-21.59.04:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2016.01.31-21.59.04:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2016.01.31-21.59.04:106][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2016.01.31-21.59.04:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2016.01.31-21.59.04:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2016.01.31-21.59.04:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2016.01.31-21.59.04:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Explosion.uasset"
+[2016.01.31-21.59.04:185][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Fire.uasset"
+[2016.01.31-21.59.04:196][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Smoke.uasset"
+[2016.01.31-21.59.04:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Sparks.uasset"
+[2016.01.31-21.59.04:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2016.01.31-21.59.04:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2016.01.31-21.59.04:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2016.01.31-21.59.04:432][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2016.01.31-21.59.04:439][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2016.01.31-21.59.04:448][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2016.01.31-21.59.04:455][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2016.01.31-21.59.04:625][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2016.01.31-21.59.04:691][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2016.01.31-21.59.04:700][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2016.01.31-21.59.04:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2016.01.31-21.59.04:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/MaterialSphere.uasset"
+[2016.01.31-21.59.04:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Bush.uasset"
+[2016.01.31-21.59.04:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Chair.uasset"
+[2016.01.31-21.59.04:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2016.01.31-21.59.04:783][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Couch.uasset"
+[2016.01.31-21.59.04:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Door.uasset"
+[2016.01.31-21.59.04:799][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2016.01.31-21.59.04:806][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2016.01.31-21.59.04:821][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2016.01.31-21.59.04:831][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2016.01.31-21.59.04:858][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2016.01.31-21.59.04:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2016.01.31-21.59.04:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2016.01.31-21.59.04:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Rock.uasset"
+[2016.01.31-21.59.04:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Shelf.uasset"
+[2016.01.31-21.59.04:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Stairs.uasset"
+[2016.01.31-21.59.04:916][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_Statue.uasset"
+[2016.01.31-21.59.04:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_TableRound.uasset"
+[2016.01.31-21.59.04:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2016.01.31-21.59.04:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2016.01.31-21.59.04:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2016.01.31-21.59.04:966][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2016.01.31-21.59.04:972][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2016.01.31-21.59.04:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2016.01.31-21.59.04:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2016.01.31-21.59.04:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2016.01.31-21.59.05:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2016.01.31-21.59.05:014][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2016.01.31-21.59.05:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2016.01.31-21.59.05:050][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2016.01.31-21.59.05:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2016.01.31-21.59.05:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2016.01.31-21.59.05:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2016.01.31-21.59.05:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2016.01.31-21.59.05:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2016.01.31-21.59.05:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2016.01.31-21.59.05:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2016.01.31-21.59.05:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2016.01.31-21.59.05:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2016.01.31-21.59.05:132][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2016.01.31-21.59.05:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2016.01.31-21.59.05:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2016.01.31-21.59.05:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2016.01.31-21.59.05:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2016.01.31-21.59.05:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2016.01.31-21.59.05:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2016.01.31-21.59.05:202][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2016.01.31-21.59.05:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2016.01.31-21.59.05:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2016.01.31-21.59.05:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2016.01.31-21.59.05:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2016.01.31-21.59.05:408][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2016.01.31-21.59.05:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2016.01.31-21.59.05:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2016.01.31-21.59.05:825][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2016.01.31-21.59.05:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2016.01.31-21.59.06:061][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2016.01.31-21.59.06:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2016.01.31-21.59.06:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2016.01.31-21.59.06:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2016.01.31-21.59.06:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2016.01.31-21.59.06:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2016.01.31-21.59.06:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2016.01.31-21.59.06:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2016.01.31-21.59.06:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2016.01.31-21.59.06:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2016.01.31-21.59.06:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2016.01.31-21.59.06:703][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2016.01.31-21.59.06:714][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2016.01.31-21.59.06:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2016.01.31-21.59.06:755][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2016.01.31-21.59.06:873][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2016.01.31-21.59.06:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2016.01.31-21.59.07:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2016.01.31-21.59.07:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2016.01.31-21.59.07:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2016.01.31-21.59.07:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2016.01.31-21.59.07:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2016.01.31-21.59.07:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2016.01.31-21.59.07:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2016.01.31-21.59.08:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2016.01.31-21.59.08:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2016.01.31-21.59.08:217][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2016.01.31-21.59.08:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2016.01.31-21.59.08:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2016.01.31-21.59.08:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2016.01.31-21.59.08:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2016.01.31-21.59.08:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2016.01.31-21.59.08:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2016.01.31-21.59.08:672][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Door_M.uasset"
+[2016.01.31-21.59.08:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Door_N.uasset"
+[2016.01.31-21.59.08:817][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2016.01.31-21.59.09:032][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2016.01.31-21.59.09:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2016.01.31-21.59.09:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2016.01.31-21.59.09:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2016.01.31-21.59.09:324][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2016.01.31-21.59.09:335][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2016.01.31-21.59.09:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2016.01.31-21.59.09:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2016.01.31-21.59.09:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2016.01.31-21.59.09:819][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2016.01.31-21.59.09:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2016.01.31-21.59.10:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2016.01.31-21.59.10:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2016.01.31-21.59.10:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2016.01.31-21.59.10:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2016.01.31-21.59.11:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2016.01.31-21.59.11:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2016.01.31-21.59.11:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2016.01.31-21.59.11:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2016.01.31-21.59.11:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2016.01.31-21.59.11:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2016.01.31-21.59.11:497][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2016.01.31-21.59.11:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2016.01.31-21.59.11:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2016.01.31-21.59.11:788][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2016.01.31-21.59.11:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2016.01.31-21.59.11:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2016.01.31-21.59.12:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2016.01.31-21.59.12:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2016.01.31-21.59.12:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2016.01.31-21.59.12:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2016.01.31-21.59.12:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2016.01.31-21.59.12:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2016.01.31-21.59.13:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2016.01.31-21.59.13:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2016.01.31-21.59.13:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2016.01.31-21.59.13:490][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2016.01.31-21.59.13:533][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2016.01.31-21.59.13:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2016.01.31-21.59.13:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2016.01.31-21.59.13:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2016.01.31-21.59.13:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2016.01.31-21.59.13:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2016.01.31-21.59.13:628][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2016.01.31-21.59.13:655][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2016.01.31-21.59.13:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2016.01.31-21.59.13:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2016.01.31-21.59.13:687][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2016.01.31-21.59.13:701][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2016.01.31-21.59.13:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2016.01.31-21.59.13:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Water_M.uasset"
+[2016.01.31-21.59.14:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Water_N.uasset"
+[2016.01.31-21.59.14:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2016.01.31-21.59.14:461][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2016.01.31-21.59.14:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2016.01.31-21.59.14:603][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2016.01.31-21.59.14:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2016.01.31-21.59.14:840][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2016.01.31-21.59.14:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2016.01.31-21.59.15:025][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2016.01.31-21.59.15:087][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2016.01.31-21.59.15:386][  0]LogRenderer: Reallocating scene render targets to support 256x256 (Frame:2).
+[2016.01.31-21.59.15:662][  0]LogSavePackage: Save=23.505789ms
+[2016.01.31-21.59.15:662][  0]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Floor_400x400A0D0E1B140251B8C77ADCEB4ADCE6601.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2016.01.31-21.59.15:680][  0]LogSavePackage: Total save time: 135.376155ms
+[2016.01.31-21.59.15:680][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2016.01.31-21.59.15:680][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2016.01.31-21.59.15:684][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.01.31-21.59.15:703][  0]LightingResults: New page: Lighting Build
+[2016.01.31-21.59.15:705][  0]MapCheck: New page: Map Check
+[2016.01.31-21.59.15:705][  0]LightingResults: New page: Lighting Build
+[2016.01.31-21.59.15:734][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E495C2160
+[2016.01.31-21.59.17:218][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.01.31-21.59.17:347][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.01.31-21.59.17:348][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.01.31-21.59.17:414][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.834ms to complete.
+[2016.01.31-21.59.17:414][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 1.731
+[2016.01.31-21.59.17:611][  0]LogCollectionManager: Loaded 0 collections in 0.004879 seconds
+[2016.01.31-21.59.17:683][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Saved/Collections/' took 0.01s
+[2016.01.31-21.59.17:683][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/Developers/Patrick/Collections/' took 0.01s
+[2016.01.31-21.59.17:683][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/Collections/' took 0.01s
+[2016.01.31-21.59.17:683][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.01.31-21.59.17:700][  0]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 1893 classes and 338 folders.
+[2016.01.31-21.59.17:711][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.01.31-21.59.18:280][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.01.31-21.59.18:285][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.01.31-21.59.18:366][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.01.31-21.59.18:372][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.01.31-21.59.18:395][  0]LogLoad: Full Startup: 26.68 seconds (BP compile: 0.12 seconds)
+[2016.01.31-21.59.18:419][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.01.31-21.59.18:858][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.01.31-21.59.19:061][  0]LogRenderer: Reallocating scene render targets to support 1004x456 (Frame:3).
+[2016.01.31-21.59.19:276][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/' took 0.86s
+[2016.01.31-21.59.19:806][  8]LogAssetRegistry: Asset discovery search completed in 22.5781 seconds
+[2016.01.31-21.59.19:806][  8]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.01.31-21.59.19:806][  8]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2016.01.31-22.00.13:011][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.00.13:011][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.01.31-22.00.13:012][590]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 10:00:13 AM)
+[2016.01.31-22.00.13:012][590]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.01.31-22.00.13:060][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.047939s)
+[2016.01.31-22.00.13:061][590]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.01.31-22.00.13:062][590]LogPlayLevel: PIE: World Init took: (0.001546s)
+[2016.01.31-22.00.13:062][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.050065s)
+[2016.01.31-22.00.13:103][590]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-22.00.13:116][590]LogInit: FAudioDevice initialized.
+[2016.01.31-22.00.13:236][590]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.01.31-22.00.13:242][590]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-16.00.13
+[2016.01.31-22.00.13:242][590]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.00.13:243][590]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.00.13:243][590]LogWorld: Bringing up level for play took: 0.005880
+[2016.01.31-22.00.13:245][590]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.643
+[2016.01.31-22.00.13:246][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.01.05:615][131]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.01.05:704][131]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.01.05:728][131]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E56042160
+[2016.01.31-22.01.24:220][761]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.01.31-22.01.24:852][761]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2016.01.31-22.06.20:397][860]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.06.20:397][860]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.31-22.06.20:398][860]LogPlayLevel: [PlayLevel] Compiling TopDownController before play...
+[2016.01.31-22.06.20:524][860]LogPlayLevel: PlayLevel: Blueprint regeneration took 126 ms (1 blueprints)
+[2016.01.31-22.06.20:598][860]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E49C26480
+[2016.01.31-22.06.20:610][860]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 10:06:20 AM)
+[2016.01.31-22.06.20:611][860]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.01.31-22.06.20:656][860]LogPlayLevel: PIE: StaticDuplicateObject took: (0.045510s)
+[2016.01.31-22.06.20:657][860]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.01.31-22.06.20:657][860]LogPlayLevel: PIE: World Init took: (0.001249s)
+[2016.01.31-22.06.20:658][860]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.047083s)
+[2016.01.31-22.06.20:761][860]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-22.06.20:775][860]LogInit: FAudioDevice initialized.
+[2016.01.31-22.06.20:815][860]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.01.31-22.06.20:821][860]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-16.06.20
+[2016.01.31-22.06.20:821][860]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.06.20:821][860]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.06.20:887][860]LogWorld: Bringing up level for play took: 0.071021
+[2016.01.31-22.06.20:896][860]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.294
+[2016.01.31-22.06.20:896][860]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.06.44:101][976]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.06.44:202][976]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.06.44:320][976]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E77ACD8A0
+[2016.01.31-22.07.33:941][393]Cmd: EDIT COPY
+[2016.01.31-22.08.26:730][217]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E77DF6520
+[2016.01.31-22.08.26:734][217]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Player/Enemy.SKEL_Enemy_C' ref from Metadata '/Game/TopDownBP/Blueprints/Player/Eenm.PackageMetaData'
+[2016.01.31-22.08.26:734][217]LogMetaData: Removing '/Game/TopDownBP/Blueprints/Player/Enemy.Enemy_C' ref from Metadata '/Game/TopDownBP/Blueprints/Player/Eenm.PackageMetaData'
+[2016.01.31-22.08.26:787][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Enemy" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset" SILENT=true
+[2016.01.31-22.08.26:817][217]LogSavePackage: Save=28.980085ms
+[2016.01.31-22.08.26:817][217]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Enemy171456EB4E3DBCEA7A50CC96C117542E.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset'
+[2016.01.31-22.08.26:819][217]LogSavePackage: Total save time: 31.053357ms
+[2016.01.31-22.08.26:819][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset
+[2016.01.31-22.09.06:207][909]LogRenderer: Reallocating scene render targets to support 1008x456 (Frame:16237).
+[2016.01.31-22.09.50:782][878]LogRenderer: Reallocating scene render targets to support 1008x720 (Frame:16945).
+[2016.01.31-22.10.36:859][114]LogSavePackage: Save=1112.223511ms
+[2016.01.31-22.10.36:859][114]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownExampleMap_Auto1134B2B2F4C37C401D762CE9EAC09A749.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2016.01.31-22.10.36:860][114]LogSavePackage: Total save time: 1137.804460ms
+[2016.01.31-22.10.36:860][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2016.01.31-22.10.36:868][114]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.239
+[2016.01.31-22.10.36:868][114]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.239
+[2016.01.31-22.10.36:944][114]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2016.01.31-22.10.36:944][114]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2016.01.31-22.10.37:029][114]LogSavePackage: Save=79.357231ms
+[2016.01.31-22.10.37:029][114]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownController_Auto1B893C5FE4A7E509832C2D8BC0E17B529.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset'
+[2016.01.31-22.10.37:030][114]LogSavePackage: Total save time: 85.327450ms
+[2016.01.31-22.10.37:030][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset
+[2016.01.31-22.10.37:039][114]LogSavePackage: Save=3.907212ms
+[2016.01.31-22.10.37:039][114]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Eenm_Auto193C77B664C5A5177AF4BB8BC3BB12693.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Eenm_Auto1.uasset'
+[2016.01.31-22.10.37:040][114]LogSavePackage: Total save time: 4.830480ms
+[2016.01.31-22.10.37:040][114]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Eenm_Auto1.uasset
+[2016.01.31-22.10.37:040][114]LogFileHelpers: Auto-saving content packages took 0.164
+[2016.01.31-22.12.00:517][473]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Downloads/Ghost1.png)
+[2016.01.31-22.12.00:529][473]LogTexture:Display: Building textures: Ghost1 (BGRA8)
+[2016.01.31-22.12.20:755][ 12]LogEditorViewport: Clicking on Actor (context menu): TextRenderActor (TemplateLabel)
+[2016.01.31-22.12.34:512][800]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2016.01.31-22.15.34:288][107]LogEditorViewport: Clicking on Actor (LMB): Player_C (Player)
+[2016.01.31-22.15.35:942][150]Cmd: DELETE
+[2016.01.31-22.15.35:942][150]Cmd: ACTOR DELETE
+[2016.01.31-22.15.35:945][150]LogEditorActor: Deleted Actor: Player_C
+[2016.01.31-22.15.36:064][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E6B1F9080
+[2016.01.31-22.15.36:065][150]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E67ADAD40
+[2016.01.31-22.15.36:070][150]LogEditorActor: Deleted 1 Actors (0.128 secs)
+[2016.01.31-22.16.24:290][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.01.31-22.16.25:983][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.16.25:983][563]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.01.31-22.16.25:984][563]LogPlayLevel: [PlayLevel] Compiling Enemy before play...
+[2016.01.31-22.16.26:091][563]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (1 blueprints)
+[2016.01.31-22.16.26:142][563]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E16C8A520
+[2016.01.31-22.16.26:142][563]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 10:16:26 AM)
+[2016.01.31-22.16.26:142][563]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.01.31-22.16.26:174][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032206s)
+[2016.01.31-22.16.26:175][563]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.01.31-22.16.26:175][563]LogPlayLevel: PIE: World Init took: (0.001157s)
+[2016.01.31-22.16.26:175][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.033660s)
+[2016.01.31-22.16.26:225][563]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.01.31-22.16.26:237][563]LogInit: FAudioDevice initialized.
+[2016.01.31-22.16.26:275][563]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.01.31-22.16.26:282][563]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-16.16.26
+[2016.01.31-22.16.26:282][563]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.16.26:282][563]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.01.31-22.16.26:283][563]LogWorld: Bringing up level for play took: 0.006329
+[2016.01.31-22.16.26:285][563]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.317
+[2016.01.31-22.16.26:285][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.17.07:619][558]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.17.07:674][558]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.01.31-22.17.07:741][559]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E3DBEA700
+[2016.01.31-22.18.12:023][646]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.01.31-22.18.13:350][688]Cmd: DELETE
+[2016.01.31-22.18.13:350][688]Cmd: ACTOR DELETE
+[2016.01.31-22.18.13:352][688]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.01.31-22.18.13:427][688]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2016.01.31-22.21.20:512][982]LogSavePackage: Save=1048.296387ms
+[2016.01.31-22.21.20:512][982]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownExampleMap_Auto2DE1F130240E932422F9F5E941E405A16.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap'
+[2016.01.31-22.21.20:513][982]LogSavePackage: Total save time: 1066.815428ms
+[2016.01.31-22.21.20:513][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto2.umap
+[2016.01.31-22.21.20:517][982]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 1.123
+[2016.01.31-22.21.20:517][982]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.123
+[2016.01.31-22.21.20:534][982]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/Player/Enemy] ([1] browsable assets)...
+[2016.01.31-22.21.20:534][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Player/Enemy]
+[2016.01.31-22.21.20:622][982]LogSavePackage: Save=38.891575ms
+[2016.01.31-22.21.20:622][982]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Enemy_Auto2402CB49B4E05D711F8888FBDB953E129.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Enemy_Auto2.uasset'
+[2016.01.31-22.21.20:623][982]LogSavePackage: Total save time: 45.476682ms
+[2016.01.31-22.21.20:623][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Enemy_Auto2.uasset
+[2016.01.31-22.21.20:628][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Player/Ghost1] ([1] browsable assets)...
+[2016.01.31-22.21.20:635][982]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownBP/Blueprints/Player/Ghost1.Ghost1]
+[2016.01.31-22.21.20:635][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Player/Ghost1]
+[2016.01.31-22.21.20:647][982]LogSavePackage: Save=10.277251ms
+[2016.01.31-22.21.20:647][982]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Ghost1_Auto23447291F4FA21CE15FA44BA26917A657.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Ghost1_Auto2.uasset'
+[2016.01.31-22.21.20:648][982]LogSavePackage: Total save time: 11.438452ms
+[2016.01.31-22.21.20:648][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Ghost1_Auto2.uasset
+[2016.01.31-22.21.20:653][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Player/Ghost1_Sprite] ([1] browsable assets)...
+[2016.01.31-22.21.20:667][982]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/TopDownBP/Blueprints/Player/Ghost1_Sprite.Ghost1_Sprite]
+[2016.01.31-22.21.20:667][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Player/Ghost1_Sprite]
+[2016.01.31-22.21.20:678][982]LogSavePackage: Save=8.883718ms
+[2016.01.31-22.21.20:678][982]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Ghost1_Sprite_Auto2EA635A5947F04DC1AB6957AA579F2583.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Ghost1_Sprite_Auto2.uasset'
+[2016.01.31-22.21.20:679][982]LogSavePackage: Total save time: 9.934817ms
+[2016.01.31-22.21.20:679][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Ghost1_Sprite_Auto2.uasset
+[2016.01.31-22.21.20:684][982]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/Player/Idle_Ghost] ([1] browsable assets)...
+[2016.01.31-22.21.20:696][982]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/TopDownBP/Blueprints/Player/Idle_Ghost.Idle_Ghost]
+[2016.01.31-22.21.20:696][982]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/Player/Idle_Ghost]
+[2016.01.31-22.21.20:707][982]LogSavePackage: Save=9.921753ms
+[2016.01.31-22.21.20:707][982]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Idle_Ghost_Auto26D988DD94ED684EF9F278796286541BA.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Idle_Ghost_Auto2.uasset'
+[2016.01.31-22.21.20:708][982]LogSavePackage: Total save time: 10.749381ms
+[2016.01.31-22.21.20:708][982]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Autosaves/Game/TopDownBP/Blueprints/Player/Idle_Ghost_Auto2.uasset
+[2016.01.31-22.21.20:708][982]LogFileHelpers: Auto-saving content packages took 0.181
+[2016.01.31-22.26.06:820][ 86]LogSavePackage: Save=1086.077637ms
+[2016.01.31-22.26.06:820][ 86]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownExampleMap3B2927074C54AB3BF6E3639D29B79178.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2016.01.31-22.26.06:827][ 86]LogSavePackage: Total save time: 1094.781738ms
+[2016.01.31-22.26.06:827][ 86]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2016.01.31-22.26.13:607][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E47F53880
+[2016.01.31-22.26.18:713][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Eenm" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Eenm.uasset" SILENT=true
+[2016.01.31-22.26.18:720][309]LogSavePackage: Save=3.957598ms
+[2016.01.31-22.26.18:720][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Eenm523818634CB50EC8511170A375C9B6D7.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Eenm.uasset'
+[2016.01.31-22.26.18:728][309]LogSavePackage: Total save time: 11.751495ms
+[2016.01.31-22.26.18:728][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Eenm.uasset
+[2016.01.31-22.26.18:743][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Enemy" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset" SILENT=true
+[2016.01.31-22.26.18:794][309]LogSavePackage: Save=30.562565ms
+[2016.01.31-22.26.18:794][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Enemy57F84E094172C8565A35B9AFE860E822.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset'
+[2016.01.31-22.26.18:803][309]LogSavePackage: Total save time: 40.654134ms
+[2016.01.31-22.26.18:803][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Enemy.uasset
+[2016.01.31-22.26.18:827][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Ghost1" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Ghost1.uasset" SILENT=true
+[2016.01.31-22.26.18:859][309]LogSavePackage: Save=30.589157ms
+[2016.01.31-22.26.18:859][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Ghost15F8791EC4C22487C29E87C96B8CEE28C.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Ghost1.uasset'
+[2016.01.31-22.26.18:868][309]LogSavePackage: Total save time: 39.763056ms
+[2016.01.31-22.26.18:868][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Ghost1.uasset
+[2016.01.31-22.26.18:903][309]LogSavePackage: Save=8.934569ms
+[2016.01.31-22.26.18:903][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Ghost1_Sprite398F0A684BE40A0459CED7BA854E1BBD.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Ghost1_Sprite.uasset'
+[2016.01.31-22.26.18:908][309]LogSavePackage: Total save time: 14.051501ms
+[2016.01.31-22.26.18:908][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Ghost1_Sprite.uasset
+[2016.01.31-22.26.18:928][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Idle_Ghost" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Ghost.uasset" SILENT=true
+[2016.01.31-22.26.18:938][309]LogSavePackage: Save=8.377529ms
+[2016.01.31-22.26.18:938][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Idle_Ghost0B55E8BF4918AD69A7707DB9180FCE59.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Ghost.uasset'
+[2016.01.31-22.26.18:942][309]LogSavePackage: Total save time: 12.449428ms
+[2016.01.31-22.26.18:942][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Ghost.uasset
+[2016.01.31-22.26.18:948][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2016.01.31-22.26.19:011][309]LogSavePackage: Save=56.604893ms
+[2016.01.31-22.26.19:011][309]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownControllerE63D77AF45E0B487DC78B2835ED2DB61.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2016.01.31-22.26.19:015][309]LogSavePackage: Total save time: 65.220352ms
+[2016.01.31-22.26.19:015][309]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/TopDownController.uasset
+[2016.01.31-22.26.19:380][310]Cmd: QUIT_EDITOR
+[2016.01.31-22.26.19:512][310]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.01.31-22.26.19:590][310]LogExit: Preparing to exit.
+[2016.01.31-22.26.20:187][310]LogExit: Editor shut down
+[2016.01.31-22.26.20:189][310]LogExit: Transaction tracking system shut down
+[2016.01.31-22.26.20:192][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E49C24900
+[2016.01.31-22.26.20:199][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E3B2604A0
+[2016.01.31-22.26.20:200][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E58405760
+[2016.01.31-22.26.20:201][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E3BDE0EA0
+[2016.01.31-22.26.20:206][310]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000025E06A72840
+[2016.01.31-22.26.20:525][310]LogExit: Object subsystem successfully closed.
+[2016.01.31-22.26.20:549][310]LogD3D11RHI: Shutdown
+[2016.01.31-22.26.20:549][310]LogD3D11RHI: CleanupD3DDevice
+[2016.01.31-22.26.20:659][310]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.01.31-22.26.20:677][310]LogModuleManager: Shutting down and abandoning module TextureEditor (201)
+[2016.01.31-22.26.20:677][310]LogModuleManager: Shutting down and abandoning module BlueprintGraph (200)
+[2016.01.31-22.26.20:677][310]LogModuleManager: Shutting down and abandoning module CrashTracker (199)
+[2016.01.31-22.26.20:677][310]LogModuleManager: Shutting down and abandoning module SceneOutliner (198)
+[2016.01.31-22.26.20:677][310]LogModuleManager: Shutting down and abandoning module SuperSearch (197)
+[2016.01.31-22.26.20:678][310]LogModuleManager: Shutting down and abandoning module WidgetCarousel (196)
+[2016.01.31-22.26.20:678][310]LogModuleManager: Shutting down and abandoning module AddContentDialog (195)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module EditorWidgets (194)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module CollectionManager (193)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module StatsViewer (192)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module CookingStats (191)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.01.31-22.26.20:687][310]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.01.31-22.26.20:688][310]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.01.31-22.26.20:688][310]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.01.31-22.26.20:688][310]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.01.31-22.26.20:688][310]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.01.31-22.26.21:632][310]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.01.31-22.26.21:633][310]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.01.31-22.26.21:634][310]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.01.31-22.26.21:635][310]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.01.31-22.26.21:636][310]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.01.31-22.26.21:698][310]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.01.31-22.26.21:725][310]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.01.31-22.26.21:725][310]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.01.31-22.26.21:725][310]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.01.31-22.26.21:725][310]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.01.31-22.26.21:726][310]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.01.31-22.26.21:728][310]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.01.31-22.26.21:735][310]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.01.31-22.26.21:860][310]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.01.31-22.26.21:863][310]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.01.31-22.26.21:863][310]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.01.31-22.26.21:965][310]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.01.31-22.26.21:965][310]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.01.31-22.26.21:965][310]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.01.31-22.26.21:968][310]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.01.31-22.26.21:969][310]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.01.31-22.26.21:971][310]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.01.31-22.26.22:031][310]LogDerivedDataCache: Shutdown
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.01.31-22.26.22:031][310]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.01.31-22.26.22:032][310]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.01.31-22.26.24:036][310]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.01.31-22.26.24:045][310]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.01.31-22.26.24:048][310]LogExit: Exiting.
+[2016.01.31-22.26.24:066][310]Log file closed, 01/31/16 16:26:24

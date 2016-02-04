@@ -1,0 +1,511 @@
+﻿[2016.02.01-00.37.02:878][  0]Log file open, 01/31/16 18:37:02
+[2016.02.01-00.37.02:879][  0]LogInit:Display: Running engine for game: HauntedPunchHouse
+[2016.02.01-00.37.02:879][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.01-00.37.02:879][  0]LogInit:Display: RandInit(701760971) SRandInit(701760972).
+[2016.02.01-00.37.02:879][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2016.02.01-00.37.02:879][  0]LogStats: Stats thread started at 0.057974
+[2016.02.01-00.37.02:879][  0]LogInit: Version: 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.01-00.37.02:879][  0]LogInit: API Version: 2758231
+[2016.02.01-00.37.02:879][  0]LogInit: Compiled (64-bit): Jan  6 2016 17:36:42
+[2016.02.01-00.37.02:879][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.01-00.37.02:879][  0]LogInit: Build Configuration: Development
+[2016.02.01-00.37.02:879][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.01-00.37.02:879][  0]LogInit: Command line:  
+[2016.02.01-00.37.02:879][  0]LogInit: Base directory: D:/Student Data/My Programs/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.01-00.37.02:879][  0]LogInit: Rocket: 1
+[2016.02.01-00.37.02:884][  0]LogInit: Using libcurl 7.41.0
+[2016.02.01-00.37.02:884][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.01-00.37.02:884][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.01-00.37.02:884][  0]LogInit:  - other features:
+[2016.02.01-00.37.02:884][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.01-00.37.02:884][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.01-00.37.02:884][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.01-00.37.02:884][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.01-00.37.02:884][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.01-00.37.02:884][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.01-00.37.02:884][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.01-00.37.02:884][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.01-00.37.02:884][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.01-00.37.02:884][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.01-00.37.02:891][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.01-00.37.02:897][  0]LogInit: Object subsystem initialized
+[2016.02.01-00.37.02:898][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.01-00.37.02:898][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.01-00.37.02:922][  0]LogInit: Computer: C-5820B173ED7A
+[2016.02.01-00.37.02:922][  0]LogInit: User: Patrick
+[2016.02.01-00.37.02:922][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.02.01-00.37.02:922][  0]LogInit: High frequency timer resolution =2.143472 MHz
+[2016.02.01-00.37.02:922][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.02.01-00.37.02:922][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.01-00.37.02:922][  0]LogMemory: Process Physical Memory: 55.84 MB used, 55.84 MB peak
+[2016.02.01-00.37.02:922][  0]LogMemory: Process Virtual Memory: 57.65 MB used, 57.65 MB peak
+[2016.02.01-00.37.02:922][  0]LogMemory: Physical Memory: 3719.41 MB used, 8067.11 MB total
+[2016.02.01-00.37.02:922][  0]LogMemory: Virtual Memory: 382.73 MB used, 134217728.00 MB total
+[2016.02.01-00.37.02:978][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.02.01-00.37.03:784][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 5500 (Feature Level 11_0)
+[2016.02.01-00.37.03:784][  0]LogD3D11RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 1 output[s]
+[2016.02.01-00.37.04:382][  0]LogD3D11RHI: Found D3D11 adapter 1: AMD Radeon R7 M260X (Feature Level 11_0)
+[2016.02.01-00.37.04:382][  0]LogD3D11RHI: Adapter has 1003MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 0 output[s]
+[2016.02.01-00.37.04:384][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.01-00.37.04:384][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4033MB of shared system memory, 0 output[s]
+[2016.02.01-00.37.04:384][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.01-00.37.04:394][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.01-00.37.04:394][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.01-00.37.04:398][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.01-00.37.04:404][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Documents/GitHub/Haunted-Punch-House/Intermediate/Shaders/WorkingDirectory/3816/).
+[2016.02.01-00.37.04:404][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/EFFFAE4649617C31B53853BE9AAEEE4E/'.
+[2016.02.01-00.37.04:404][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.01-00.37.05:909][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.01-00.37.05:916][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.01-00.37.05:923][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.01-00.37.05:927][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.01-00.37.05:931][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.01-00.37.05:935][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.01-00.37.05:939][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.01-00.37.05:942][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.01-00.37.05:944][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.01-00.37.05:947][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.01-00.37.05:950][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.01-00.37.05:957][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.01-00.37.05:957][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.01-00.37.05:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.01-00.37.05:976][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.01-00.37.05:979][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.01-00.37.05:983][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.01-00.37.05:988][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.01-00.37.05:988][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.01-00.37.06:059][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache: Loaded boot cache 0.07s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Documents/GitHub/Haunted-Punch-House/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Documents/GitHub/Haunted-Punch-House/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.01-00.37.06:125][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.01-00.37.06:197][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.01-00.37.06:209][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.01-00.37.06:403][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.01-00.37.06:406][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.01-00.37.06:528][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.01-00.37.06:528][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.01-00.37.06:855][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.01-00.37.10:992][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.01-00.37.11:212][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2016.02.01-00.37.11:410][  0]SourceControl: Info Source control is disabled
+[2016.02.01-00.37.11:411][  0]SourceControl: Info Source control is disabled
+[2016.02.01-00.37.11:421][  0]SourceControl: Info Source control is disabled
+[2016.02.01-00.37.11:431][  0]SourceControl: Info Source control is disabled
+[2016.02.01-00.37.11:729][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.02.01-00.37.11:729][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2016.02.01-00.37.11:804][  0]LogEngine: Initializing Engine...
+[2016.02.01-00.37.11:807][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.01-00.37.11:807][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.01-00.37.11:959][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.01-00.37.11:963][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.37.12:466][  0]LogInit: FAudioDevice initialized.
+[2016.02.01-00.37.12:502][  0]LogDerivedDataCache: Saved boot cache 0.03s 41MB C:/Users/Student/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.01-00.37.12:512][  0]LogInit: Texture streaming: Enabled
+[2016.02.01-00.37.12:518][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.01-00.37.12:518][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.2-2818068+++depot+UE4-Releases+4.10
+[2016.02.01-00.37.12:518][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId c6e9426d40c3b6b6523f2fbbe6b659f3|ad566b4d291d47d9a4654a9438cd3aeb|76f780ed-daf0-401c-9ba3-dae71ad2bf29
+[2016.02.01-00.37.12:518][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.01-00.37.12:529][  0]LogInit: Transaction tracking system initialized
+[2016.02.01-00.37.12:559][  0]BlueprintLog: New page: Editor Load
+[2016.02.01-00.37.12:675][  0]LocalizationService: Info Localization service is disabled
+[2016.02.01-00.37.12:992][  0]LogConsoleResponse:Display: 
+[2016.02.01-00.37.13:149][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.01-00.37.13:200][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/' took 0.02s
+[2016.02.01-00.37.13:200][  0]SourceControl: Info Source control is disabled
+[2016.02.01-00.37.13:200][  0]Cmd: MAP LOAD FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.01-00.37.13:200][  0]LightingResults: New page: Lighting Build
+[2016.02.01-00.37.13:203][  0]MapCheck: New page: Map Check
+[2016.02.01-00.37.13:203][  0]LightingResults: New page: Lighting Build
+[2016.02.01-00.37.13:224][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E55F5E2160
+[2016.02.01-00.37.13:628][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.37.13:635][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.01-00.37.13:637][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.01-00.37.13:697][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.761ms to complete.
+[2016.02.01-00.37.13:697][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.497
+[2016.02.01-00.37.13:816][  0]LogCollectionManager: Loaded 0 collections in 0.001421 seconds
+[2016.02.01-00.37.13:856][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Saved/Collections/' took 0.01s
+[2016.02.01-00.37.13:856][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/Developers/Patrick/Collections/' took 0.01s
+[2016.02.01-00.37.13:856][  0]LogFileCache: Scanning file cache for directory 'D:/Student Data/Documents/GitHub/Haunted-Punch-House/Content/Collections/' took 0.01s
+[2016.02.01-00.37.13:856][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.02.01-00.37.13:864][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 1893 classes and 338 folders.
+[2016.02.01-00.37.13:870][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.02.01-00.37.13:915][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.02.01-00.37.13:919][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.02.01-00.37.13:972][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.01-00.37.13:978][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.01-00.37.14:001][  0]LogLoad: Full Startup: 11.74 seconds (BP compile: 0.16 seconds)
+[2016.02.01-00.37.14:029][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.01-00.37.14:148][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.02.01-00.37.14:307][  0]LogRenderer: Reallocating scene render targets to support 1008x456 (Frame:2).
+[2016.02.01-00.37.15:001][  4]LogAssetRegistry: Asset discovery search completed in 3.8013 seconds
+[2016.02.01-00.37.15:002][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2016.02.01-00.37.15:002][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000060 seconds (updated 0 objects)
+[2016.02.01-00.37.17:742][164]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.37.17:742][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-00.37.17:743][164]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 12:37:17 PM)
+[2016.02.01-00.37.17:743][164]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.01-00.37.17:781][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038293s)
+[2016.02.01-00.37.17:782][164]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.37.17:782][164]LogPlayLevel: PIE: World Init took: (0.001153s)
+[2016.02.01-00.37.17:782][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.039765s)
+[2016.02.01-00.37.17:820][164]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.37.17:830][164]LogInit: FAudioDevice initialized.
+[2016.02.01-00.37.17:882][164]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.02.01-00.37.17:887][164]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-18.37.17
+[2016.02.01-00.37.17:887][164]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.37.17:888][164]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.37.17:888][164]LogWorld: Bringing up level for play took: 0.005703
+[2016.02.01-00.37.17:938][164]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.664
+[2016.02.01-00.37.17:938][164]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.38.39:829][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.38.39:866][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.38.39:893][429]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E57C3F0860
+[2016.02.01-00.39.02:427][441]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2016.02.01-00.39.03:563][501]Cmd: DELETE
+[2016.02.01-00.39.03:563][501]Cmd: ACTOR DELETE
+[2016.02.01-00.39.03:610][501]LogEditorActor: Deleted Actor: TextRenderActor
+[2016.02.01-00.39.03:652][501]LogEditorActor: Deleted 1 Actors (0.089 secs)
+[2016.02.01-00.39.28:858][  1]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (NetworkPlayerStart)
+[2016.02.01-00.40.14:635][713]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.01-00.40.15:206][713]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2016.02.01-00.40.39:318][753]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.40.39:318][753]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.01-00.40.39:363][753]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.02.01-00.40.39:419][753]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2016.02.01-00.40.39:465][753]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 12:40:39 PM)
+[2016.02.01-00.40.39:465][753]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.01-00.40.39:496][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031475s)
+[2016.02.01-00.40.39:497][753]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.40.39:497][753]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2016.02.01-00.40.39:497][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032680s)
+[2016.02.01-00.40.39:544][753]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.40.39:555][753]LogInit: FAudioDevice initialized.
+[2016.02.01-00.40.39:600][753]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.02.01-00.40.39:606][753]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-18.40.39
+[2016.02.01-00.40.39:606][753]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.40.39:606][753]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.40.39:607][753]LogWorld: Bringing up level for play took: 0.006510
+[2016.02.01-00.40.39:610][753]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 1.008
+[2016.02.01-00.40.39:610][753]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.40.41:130][791]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.40.41:188][791]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.40.41:326][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E5148EF4C0
+[2016.02.01-00.40.45:692][998]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.40.45:692][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-00.40.45:692][998]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 12:40:45 PM)
+[2016.02.01-00.40.45:692][998]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.01-00.40.45:722][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029748s)
+[2016.02.01-00.40.45:723][998]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.40.45:724][998]LogPlayLevel: PIE: World Init took: (0.001861s)
+[2016.02.01-00.40.45:724][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.032088s)
+[2016.02.01-00.40.45:768][998]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.40.45:779][998]LogInit: FAudioDevice initialized.
+[2016.02.01-00.40.45:815][998]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.02.01-00.40.45:819][998]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-18.40.45
+[2016.02.01-00.40.45:820][998]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.40.45:820][998]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.40.45:821][998]LogWorld: Bringing up level for play took: 0.005480
+[2016.02.01-00.40.45:823][998]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.779
+[2016.02.01-00.40.45:823][998]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.46.03:653][956]LogFactory: FactoryCreateBinary: Texture with ReimportTextureFactory (0 0 ../../../../../../Downloads/a_wahler_pc_v2.png)
+[2016.02.01-00.46.03:659][956]LogTexture:Display: Building textures: a_wahler_pc_v2 (BGRA8)
+[2016.02.01-00.46.47:202][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Idle_Right" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Right.uasset" SILENT=true
+[2016.02.01-00.46.47:258][408]LogSavePackage: Save=52.006279ms
+[2016.02.01-00.46.47:258][408]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Idle_Right0A517EF74FDD39308C2ADFAA83786CA9.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Right.uasset'
+[2016.02.01-00.46.47:261][408]LogSavePackage: Total save time: 57.818346ms
+[2016.02.01-00.46.47:261][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Right.uasset
+[2016.02.01-00.46.47:429][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Player" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset" SILENT=true
+[2016.02.01-00.46.47:480][408]LogSavePackage: Save=45.047009ms
+[2016.02.01-00.46.47:480][408]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Player9F72F8AC4CA1E0B0EAED90B535AAE1C3.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset'
+[2016.02.01-00.46.47:482][408]LogSavePackage: Total save time: 51.846255ms
+[2016.02.01-00.46.47:482][408]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset
+[2016.02.01-00.47.19:241][857]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.47.19:296][857]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.47.19:402][858]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E514F7DDA0
+[2016.02.01-00.48.55:618][883]LogEditorTransaction: Undo Delete current selection
+[2016.02.01-00.48.56:056][896]LogEditorTransaction: Undo Delete current selection
+[2016.02.01-00.50.03:318][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.03:318][219]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.01-00.50.03:326][219]LogPlayLevel: [PlayLevel] Compiling Player before play...
+[2016.02.01-00.50.03:383][219]LogPlayLevel: PlayLevel: Blueprint regeneration took 64 ms (1 blueprints)
+[2016.02.01-00.50.03:426][219]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 12:50:03 PM)
+[2016.02.01-00.50.03:426][219]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.01-00.50.03:454][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027774s)
+[2016.02.01-00.50.03:455][219]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.50.03:455][219]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2016.02.01-00.50.03:455][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029117s)
+[2016.02.01-00.50.03:499][219]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.50.03:511][219]LogInit: FAudioDevice initialized.
+[2016.02.01-00.50.03:558][219]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.02.01-00.50.03:562][219]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-18.50.03
+[2016.02.01-00.50.03:562][219]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.50.03:562][219]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.50.03:563][219]LogWorld: Bringing up level for play took: 0.004534
+[2016.02.01-00.50.03:565][219]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.963
+[2016.02.01-00.50.03:565][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.05:415][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.05:470][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.05:541][282]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E552B44680
+[2016.02.01-00.50.10:147][478]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.10:147][478]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.01-00.50.10:147][478]PIE: New page: PIE session: TopDownExampleMap (Jan 31, 2016, 12:50:10 PM)
+[2016.02.01-00.50.10:147][478]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2016.02.01-00.50.10:176][478]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028652s)
+[2016.02.01-00.50.10:178][478]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2016.02.01-00.50.10:178][478]LogPlayLevel: PIE: World Init took: (0.001898s)
+[2016.02.01-00.50.10:178][478]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.030949s)
+[2016.02.01-00.50.10:220][478]LogInit: XAudio2 using 'Speakers/Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.02.01-00.50.10:230][478]LogInit: FAudioDevice initialized.
+[2016.02.01-00.50.10:264][478]LogWorld: Game class is 'TopDownGameMode_C'
+[2016.02.01-00.50.10:269][478]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 60) at 2016.01.31-18.50.10
+[2016.02.01-00.50.10:269][478]LogActor:Warning: GameSession /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.50.10:269][478]LogActor:Warning: GameNetworkManager /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.01-00.50.10:269][478]LogWorld: Bringing up level for play took: 0.004577
+[2016.02.01-00.50.10:272][478]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.331
+[2016.02.01-00.50.10:272][478]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.35:873][797]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.35:920][797]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2016.02.01-00.50.36:012][798]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E513118EA0
+[2016.02.01-00.51.09:499][544]LogSavePackage: Save=886.308777ms
+[2016.02.01-00.51.09:499][544]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/TopDownExampleMap7A848D2A44810D1AC320C6ABB40C782B.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2016.02.01-00.51.09:503][544]LogSavePackage: Total save time: 905.196801ms
+[2016.02.01-00.51.09:503][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Maps/TopDownExampleMap.umap
+[2016.02.01-00.51.09:532][544]LogFileHelpers: Saving map 'TopDownExampleMap' took 1.036
+[2016.02.01-00.51.09:545][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Player" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset" SILENT=true
+[2016.02.01-00.51.09:577][544]LogSavePackage: Save=30.301306ms
+[2016.02.01-00.51.09:577][544]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/PlayerD360D5B349FE45F8BDA9EDB3319B5428.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset'
+[2016.02.01-00.51.09:579][544]LogSavePackage: Total save time: 33.184946ms
+[2016.02.01-00.51.09:579][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Player.uasset
+[2016.02.01-00.51.09:613][544]LogSavePackage: Save=13.988053ms
+[2016.02.01-00.51.09:613][544]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/a_wahler_pc_v223B9D2544C57C16999BACBBB3A144931.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/a_wahler_pc_v2.uasset'
+[2016.02.01-00.51.09:614][544]LogSavePackage: Total save time: 15.819196ms
+[2016.02.01-00.51.09:614][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/a_wahler_pc_v2.uasset
+[2016.02.01-00.51.09:645][544]LogSavePackage: Save=9.574186ms
+[2016.02.01-00.51.09:645][544]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/a_wahler_pc_v2_SpriteF0D8B86748F7789B2E807E88D343FADF.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/a_wahler_pc_v2_Sprite.uasset'
+[2016.02.01-00.51.09:647][544]LogSavePackage: Total save time: 11.831738ms
+[2016.02.01-00.51.09:647][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/a_wahler_pc_v2_Sprite.uasset
+[2016.02.01-00.51.09:669][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/Player/Idle_Left" FILE="../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Left.uasset" SILENT=true
+[2016.02.01-00.51.09:679][544]LogSavePackage: Save=7.914729ms
+[2016.02.01-00.51.09:679][544]LogSavePackage: Moving '../../../../../../Documents/GitHub/Haunted-Punch-House/Saved/Idle_LeftBE664ACB4966282B1D89298263F42AE2.tmp' to '../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Left.uasset'
+[2016.02.01-00.51.09:681][544]LogSavePackage: Total save time: 10.127030ms
+[2016.02.01-00.51.09:681][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Documents/GitHub/Haunted-Punch-House/Content/TopDownBP/Blueprints/Player/Idle_Left.uasset
+[2016.02.01-00.51.13:326][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E553FCBBA0
+[2016.02.01-00.51.13:328][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E552B47F60
+[2016.02.01-00.51.13:408][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E514F7EFC0
+[2016.02.01-00.51.13:408][748]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.01-00.51.13:673][749]Cmd: QUIT_EDITOR
+[2016.02.01-00.51.14:633][749]LogExit: Preparing to exit.
+[2016.02.01-00.51.15:429][749]LogExit: Editor shut down
+[2016.02.01-00.51.15:430][749]LogExit: Transaction tracking system shut down
+[2016.02.01-00.51.15:434][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E5526EB920
+[2016.02.01-00.51.15:435][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E56780F880
+[2016.02.01-00.51.15:435][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E5677C6660
+[2016.02.01-00.51.15:436][749]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001E57C464FE0
+[2016.02.01-00.51.15:693][749]LogExit: Object subsystem successfully closed.
+[2016.02.01-00.51.15:710][749]LogD3D11RHI: Shutdown
+[2016.02.01-00.51.15:710][749]LogD3D11RHI: CleanupD3DDevice
+[2016.02.01-00.51.15:849][749]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2016.02.01-00.51.15:872][749]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2016.02.01-00.51.15:874][749]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2016.02.01-00.51.15:874][749]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2016.02.01-00.51.15:874][749]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2016.02.01-00.51.15:874][749]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.01-00.51.15:875][749]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.01-00.51.15:876][749]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.01-00.51.15:877][749]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.01-00.51.15:877][749]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.01-00.51.16:002][749]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.01-00.51.16:003][749]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.01-00.51.16:004][749]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.01-00.51.16:027][749]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.01-00.51.16:057][749]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.01-00.51.16:058][749]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.01-00.51.16:059][749]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.01-00.51.16:060][749]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.01-00.51.16:131][749]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.01-00.51.16:132][749]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.01-00.51.16:132][749]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.01-00.51.16:232][749]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.01-00.51.16:232][749]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.01-00.51.16:232][749]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.01-00.51.16:241][749]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.01-00.51.16:241][749]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.01-00.51.16:241][749]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.01-00.51.16:242][749]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.01-00.51.16:243][749]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.01-00.51.16:243][749]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.01-00.51.16:243][749]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.01-00.51.16:243][749]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.01-00.51.16:249][749]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.01-00.51.16:258][749]LogDerivedDataCache: Shutdown
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.01-00.51.16:258][749]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.01-00.51.16:259][749]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.01-00.51.16:260][749]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.01-00.51.16:260][749]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.01-00.51.17:262][749]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.01-00.51.17:263][749]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.01-00.51.17:264][749]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.01-00.51.17:265][749]LogExit: Exiting.
+[2016.02.01-00.51.17:279][749]Log file closed, 01/31/16 18:51:17
