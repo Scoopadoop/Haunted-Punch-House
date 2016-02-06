@@ -10,6 +10,8 @@ public class PlayerController : MonoBehaviour {
     public float groundCheckRadius;
     public LayerMask whatIsGround;
     private bool grounded; //true on ground, false in air
+    public float punchTimer = 2.0f; //duration of punch hitbox 
+    public bool punchActive; //is punch active?
     
 
 	// Use this for initialization
@@ -41,6 +43,39 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey (KeyCode.A))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            while (punchTimer > 0.0f)
+            {
+                // Decrease timeLimit.
+                punchTimer -= Time.deltaTime;
+                punchActive = true;
+            }
+            if (punchTimer <= 0.0f)
+            {
+                punchActive = false;
+                punchTimer = 2.0f;
+            }
+        }
+
+        if(GetComponent<Rigidbody2D>().velocity.x > 0.5)
+        {
+            transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+            Transform[] allChildren = GetComponentsInChildren<Transform>();
+            foreach (Transform child in allChildren)
+            {
+                transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+            }
+        }
+        else if (GetComponent<Rigidbody2D>().velocity.x < -0.5)
+        {
+            transform.localScale = new Vector3(-0.5f, 0.5f, 1f);
+            Transform[] allChildren = GetComponentsInChildren<Transform>();
+            foreach (Transform child in allChildren)
+            {
+                transform.localScale = new Vector3(-0.5f, 0.5f, 1f);
+            }
         }
 	}
 }
