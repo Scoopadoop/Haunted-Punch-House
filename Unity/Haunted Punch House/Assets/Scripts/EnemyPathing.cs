@@ -1,0 +1,45 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class EnemyPathing : MonoBehaviour
+{
+
+    public float moveSpeed;
+
+    //public Transform groundCheck;
+    //public float groundCheckRadius;
+    //public LayerMask whatIsGround;
+    //private bool grounded; //true on ground, false in air
+
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+        transform.Translate(new Vector3(moveSpeed, 0, 0) * Time.deltaTime);
+
+        if (moveSpeed > 0)
+        {
+            transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+        }
+        else if (moveSpeed < 0)
+        {
+            transform.localScale = new Vector3(-0.5f, 0.5f, 1f);
+        }
+    }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Block")
+        {
+            moveSpeed *= -1;
+        }
+    }
+
+    
+}

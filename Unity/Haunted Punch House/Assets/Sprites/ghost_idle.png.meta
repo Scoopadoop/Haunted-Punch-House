@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: b0650cefc2b36f741af1ad97b2bb0851
+timeCreated: 1454636565
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ghost_idle_0
+    21300002: ghost_idle_1
+    21300004: ghost_idle_2
+    21300006: ghost_idle_3
+    21300008: ghost_idle_4
+    21300010: ghost_idle_5
+    21300012: ghost_idle_6
+    21300014: ghost_idle_7
+    21300016: ghost_idle_8
+    21300018: ghost_idle_9
+    21300020: ghost_idle_10
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 256
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ghost_idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 128}
+        - {x: -80, y: 102}
+        - {x: -80, y: -89}
+        - {x: -74, y: -128}
+        - {x: 79, y: -128}
+        - {x: 79, y: 73}
+        - {x: 28, y: 128}
+    - name: ghost_idle_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 128}
+        - {x: -79, y: 128}
+        - {x: -80, y: 113}
+        - {x: -80, y: -128}
+        - {x: -51, y: -128}
+        - {x: -30, y: -113}
+        - {x: 5, y: -128}
+        - {x: 79, y: -128}
+    - name: ghost_idle_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 128}
+        - {x: -57, y: 128}
+        - {x: -80, y: 76}
+        - {x: -80, y: -3}
+        - {x: -74, y: -121}
+        - {x: -69, y: -128}
+        - {x: -49, y: -128}
+        - {x: -25, y: -108}
+        - {x: 33, y: -128}
+        - {x: 60, y: -128}
+        - {x: 79, y: -109}
+        - {x: 79, y: 73}
+    - name: ghost_idle_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -112}
+        - {x: 79, y: -103}
+        - {x: 79, y: 82}
+        - {x: 62, y: 128}
+        - {x: -75, y: 128}
+        - {x: -80, y: 93}
+        - {x: -80, y: -124}
+        - {x: -75, y: -128}
+        - {x: -50, y: -128}
+        - {x: -32, y: -98}
+        - {x: 41, y: -128}
+        - {x: 58, y: -128}
+    - name: ghost_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -112}
+        - {x: 79, y: -103}
+        - {x: 79, y: 73}
+        - {x: 28, y: 128}
+        - {x: -58, y: 128}
+        - {x: -80, y: 87}
+        - {x: -80, y: -110}
+        - {x: -79, y: -125}
+        - {x: -71, y: -128}
+        - {x: -52, y: -128}
+        - {x: -47, y: -125}
+        - {x: -37, y: -103}
+        - {x: 23, y: -128}
+        - {x: 60, y: -128}
+    - name: ghost_idle_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49, y: 128}
+        - {x: -80, y: 70}
+        - {x: -80, y: -128}
+        - {x: 50, y: -128}
+        - {x: 80, y: -110}
+        - {x: 80, y: 74}
+        - {x: 33, y: 128}
+    - name: ghost_idle_6
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -112}
+        - {x: 79, y: -103}
+        - {x: 79, y: 73}
+        - {x: 28, y: 128}
+        - {x: -58, y: 128}
+        - {x: -80, y: 87}
+        - {x: -80, y: -110}
+        - {x: -79, y: -125}
+        - {x: -71, y: -128}
+        - {x: -52, y: -128}
+        - {x: -47, y: -125}
+        - {x: -37, y: -103}
+        - {x: 23, y: -128}
+        - {x: 60, y: -128}
+    - name: ghost_idle_7
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76, y: -112}
+        - {x: 79, y: -103}
+        - {x: 79, y: 82}
+        - {x: 62, y: 128}
+        - {x: -75, y: 128}
+        - {x: -80, y: 93}
+        - {x: -80, y: -124}
+        - {x: -75, y: -128}
+        - {x: -50, y: -128}
+        - {x: -32, y: -98}
+        - {x: 41, y: -128}
+        - {x: 58, y: -128}
+    - name: ghost_idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 128}
+        - {x: -57, y: 128}
+        - {x: -80, y: 76}
+        - {x: -80, y: -3}
+        - {x: -74, y: -121}
+        - {x: -69, y: -128}
+        - {x: -49, y: -128}
+        - {x: -25, y: -108}
+        - {x: 33, y: -128}
+        - {x: 60, y: -128}
+        - {x: 79, y: -109}
+        - {x: 79, y: 73}
+    - name: ghost_idle_9
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: 128}
+        - {x: -79, y: 128}
+        - {x: -80, y: 113}
+        - {x: -80, y: -128}
+        - {x: -51, y: -128}
+        - {x: -30, y: -113}
+        - {x: 5, y: -128}
+        - {x: 79, y: -128}
+    - name: ghost_idle_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -59, y: 128}
+        - {x: -80, y: 102}
+        - {x: -80, y: -89}
+        - {x: -74, y: -128}
+        - {x: 79, y: -128}
+        - {x: 79, y: 73}
+        - {x: 28, y: 128}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
