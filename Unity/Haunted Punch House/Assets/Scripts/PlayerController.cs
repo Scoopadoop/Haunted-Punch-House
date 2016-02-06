@@ -43,13 +43,23 @@ public class PlayerController : MonoBehaviour {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
         }
 
-        if(GetComponent<Rigidbody2D>().velocity.x > 0)
+        if(GetComponent<Rigidbody2D>().velocity.x > 0.5)
         {
             transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+            Transform[] allChildren = GetComponentsInChildren<Transform>();
+            foreach (Transform child in allChildren)
+            {
+                transform.localScale = new Vector3(0.5f, 0.5f, 1f);
+            }
         }
-        else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+        else if (GetComponent<Rigidbody2D>().velocity.x < -0.5)
         {
             transform.localScale = new Vector3(-0.5f, 0.5f, 1f);
+            Transform[] allChildren = GetComponentsInChildren<Transform>();
+            foreach (Transform child in allChildren)
+            {
+                transform.localScale = new Vector3(-0.5f, 0.5f, 1f);
+            }
         }
 	}
 }
