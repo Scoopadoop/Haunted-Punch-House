@@ -6,17 +6,20 @@ public class EnemyPathing : MonoBehaviour
 
     public float moveSpeed;
 
-    //public Transform groundCheck;
-    //public float groundCheckRadius;
-    //public LayerMask whatIsGround;
-    //private bool grounded; //true on ground, false in air
+    public Transform groundCheck;
+    public float groundCheckRadius;
+    public LayerMask whatIsGround;
+    private bool grounded; //true on ground, false in air
 
     // Use this for initialization
     void Start()
     {
 
     }
-
+    void FixedUpdate()
+    {
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+    }
     // Update is called once per frame
     void Update()
     {
