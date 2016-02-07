@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerAttack : MonoBehaviour {
 
     private bool attacking = false;
-    private float attackTimer = 0;
+    private float attackTimer = 1;
     private float attackCD = 0.3f;
     private Animator anim;
 
