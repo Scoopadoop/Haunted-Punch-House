@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
     private bool grounded; //true on ground, false in air
     public float punchTimer = 2.0f; //duration of punch hitbox 
     public bool punchActive; //is punch active?
+ 
     
 
 	// Use this for initialization
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour {
         if(Input.GetKeyDown (KeyCode.W) && grounded)
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);//gets value of character that he already has while moving sideways
+            GetComponent<AudioSource>().Play();
         }
 
         if (Input.GetKey (KeyCode.D))
