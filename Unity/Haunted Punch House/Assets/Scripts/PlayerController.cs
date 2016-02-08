@@ -91,7 +91,7 @@ public class PlayerController : MonoBehaviour
         {
             //gameObject.GetComponent<Animation>().Play("death animation");
             //insert the death animation in the above line
-            Destroy(gameObject);
+            Application.LoadLevel(Application.loadedLevel);
         }
 
     }
