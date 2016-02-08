@@ -19,15 +19,15 @@ public class EnemyHealthManager : MonoBehaviour
     {
         if (enemyHealth <= 0)
         {
+            //gameObject.GetComponent<Animation>().Play("death animation");
+            //insert the death animation in the above line
             Destroy(gameObject);
         }
 
-	}
+    }
 
     public void Damage(int damage)
     {
         enemyHealth -= damage;
-        //gameObject.GetComponent<Animation>().Play("death animation");
-        //insert the death animation in the above line
     }
 }
