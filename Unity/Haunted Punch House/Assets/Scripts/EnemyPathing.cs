@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyPathing : MonoBehaviour
 {
 
-    public float moveSpeed;
+    public float moveSpeed = 1;
 
     public Transform groundCheck;
     public float groundCheckRadius;
