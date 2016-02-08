@@ -107,11 +107,11 @@ public class PlayerController : MonoBehaviour
 
             if (knockFromRight)
             {
-                rb2d.AddForce(new Vector3(knockbackDir.x * -180, knockbackDir.y * knockbackPwr, transform.position.z));
+                rb2d.AddForce(new Vector3(knockbackDir.x * -500, 1000, transform.position.z));
             }
             if (!knockFromRight)
             {
-                rb2d.AddForce(new Vector3(knockbackDir.x * 180, knockbackDir.y * knockbackPwr, transform.position.z));
+                rb2d.AddForce(new Vector3(knockbackDir.x * 500, 1000, transform.position.z));
             }
         }
         yield return 0;
