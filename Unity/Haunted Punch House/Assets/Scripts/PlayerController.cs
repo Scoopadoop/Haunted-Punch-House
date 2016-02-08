@@ -64,6 +64,7 @@ public class PlayerController : MonoBehaviour
                 punchActive = false;
                 punchTimer = 2.0f;
             }
+            transform.Find("a_wahler_pc_upperArm_Right").transform.Find("a_wahler_pc_foreArm_Right").GetComponent<Rigidbody2D>().velocity = new Vector2(50 * (transform.Find("Body").localScale.x), 25);
         }
 
         if (GetComponent<Rigidbody2D>().velocity.x > 3.0)

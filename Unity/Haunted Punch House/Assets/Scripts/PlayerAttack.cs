@@ -23,6 +23,7 @@ public class PlayerAttack : MonoBehaviour {
             attacking = true;
             attackTimer = attackCD;
             attackTrigger.enabled = true;
+            transform.Find("AttackTrigger").localPosition = new Vector3((2.23f * (transform.Find("Body").localScale.x)), 0f, 0f);
         }
 
         if (attacking)
