@@ -11,15 +11,20 @@ public class EnemyPathing : MonoBehaviour
     public LayerMask whatIsGround;
     private bool grounded; //true on ground, false in air
 
+    private PlayerController player;
+
     // Use this for initialization
     void Start()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
+
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
     }
+
+
     // Update is called once per frame
     void Update()
     {
@@ -42,7 +47,21 @@ public class EnemyPathing : MonoBehaviour
         {
             moveSpeed *= -1;
         }
-    }
 
-    
+
+        if (col.gameObject.tag == "Player")
+        {
+            if (col.transform.position.x < transform.position.x)
+            {
+                player.knockFromRight = true;
+            }
+            else
+            {
+                player.knockFromRight = false;
+            }
+
+            StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
+        }
+
+    }
 }
