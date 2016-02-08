@@ -33,11 +33,11 @@ public class EnemyPathing : MonoBehaviour
 
         if (moveSpeed > 0)
         {
-            transform.localScale = new Vector3(1.0f, 1.0f, 1f);
+            transform.Find("Body").transform.localScale = new Vector3(1f, 1f, 1f);
         }
         else if (moveSpeed < 0)
         {
-            transform.localScale = new Vector3(-1.0f, 1.0f, 1f);
+            transform.Find("Body").transform.localScale = new Vector3(-1f, 1f, 1f);
         }
     }
 
