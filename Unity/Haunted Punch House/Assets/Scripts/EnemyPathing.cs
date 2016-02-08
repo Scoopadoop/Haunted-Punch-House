@@ -39,6 +39,7 @@ public class EnemyPathing : MonoBehaviour
         {
             transform.Find("Body").transform.localScale = new Vector3(-1f, 1f, 1f);
         }
+
     }
 
     void OnCollisionEnter2D(Collision2D col)
@@ -61,7 +62,10 @@ public class EnemyPathing : MonoBehaviour
             }
 
             StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
+            player.playerHealth -= 1;
         }
 
     }
+
+
 }

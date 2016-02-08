@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     private bool grounded; //true on ground, false in air
     public float punchTimer = 2.0f; //duration of punch hitbox 
     public bool punchActive; //is punch active?
+    public int playerHealth; //player's HP
 
     private Rigidbody2D rb2d;
 
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
+        playerHealth = 5;
     }
 
     void FixedUpdate()
@@ -84,6 +86,14 @@ public class PlayerController : MonoBehaviour
             }
             transform.localScale = new Vector3(-0.5f, 0.5f, 1f);*/
         }
+
+        if (playerHealth <= 0)
+        {
+            //gameObject.GetComponent<Animation>().Play("death animation");
+            //insert the death animation in the above line
+            Destroy(gameObject);
+        }
+
     }
 
     public IEnumerator Knockback(float knockDur, float knockbackPwr, Vector3 knockbackDir)
@@ -105,4 +115,5 @@ public class PlayerController : MonoBehaviour
         }
         yield return 0;
     }
+
 }

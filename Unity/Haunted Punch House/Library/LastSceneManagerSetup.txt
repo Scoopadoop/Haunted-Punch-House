@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlayerAttack.unity
+- path: Assets/PlayerDamage.unity
   isLoaded: 1
   isActive: 1
