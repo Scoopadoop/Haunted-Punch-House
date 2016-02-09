@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 
     public float moveSpeed;
     public float jumpHeight;
+    public float enemies = 3;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -93,6 +94,22 @@ public class PlayerController : MonoBehaviour
             //gameObject.GetComponent<Animation>().Play("death animation");
             //insert the death animation in the above line
             Application.LoadLevel(Application.loadedLevel);
+        }
+        if (enemies == 0)
+        {
+            GameObject.Find("UrnNewFull").GetComponent<BoxCollider2D>().enabled = true;
+        }
+
+    }
+
+    
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.tag == "Finish")
+        {
+            
+            Application.Quit();
         }
 
     }
