@@ -151,6 +151,8 @@ public class PlayerController : MonoBehaviour
             {
                 rb2d.AddForce(new Vector3(knockbackDir.x * 500, 1000, transform.position.z));
             }
+
+			gameObject.GetComponent<Animation>().Play ("hurt_flash");
         }
         yield return 0;
     }
