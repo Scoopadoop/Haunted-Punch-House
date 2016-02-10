@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float jumpHeight;
     public float enemies = 3;
+    public GameObject button;
 
     public Transform groundCheck;
     public float groundCheckRadius;
@@ -113,6 +114,7 @@ public class PlayerController : MonoBehaviour
                     Destroy(GameObject.Find("Tentacle3"));
                     GameObject.Find("UrnNewFull").GetComponent<BoxCollider2D>().enabled = true;
                     GameObject.Find("UrnNewFull").GetComponent<SpriteRenderer>().enabled = true;
+                    button.SetActive(true);
                 }
             }
         }
