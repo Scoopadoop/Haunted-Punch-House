@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/PlayerDamage.unity
+- path: Assets/Tentacles.unity
   isLoaded: 1
   isActive: 1

@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
-        playerHealth = 5;
+        playerHealth = 20;
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
@@ -102,9 +102,19 @@ public class PlayerController : MonoBehaviour
             //insert the death animation in the above line
             Application.LoadLevel(Application.loadedLevel);
         }
-        if (enemies == 0)
+        if (enemies <= 2)
         {
-            GameObject.Find("UrnNewFull").GetComponent<BoxCollider2D>().enabled = true;
+            Destroy(GameObject.Find("Tentacle1"));
+            if (enemies <= 1)
+            {
+                Destroy(GameObject.Find("Tentacle2"));
+                if (enemies <= 0)
+                {
+                    Destroy(GameObject.Find("Tentacle3"));
+                    GameObject.Find("UrnNewFull").GetComponent<BoxCollider2D>().enabled = true;
+                    GameObject.Find("UrnNewFull").GetComponent<SpriteRenderer>().enabled = true;
+                }
+            }
         }
 
         HealthUI = HealthSprites[player.playerHealth];
