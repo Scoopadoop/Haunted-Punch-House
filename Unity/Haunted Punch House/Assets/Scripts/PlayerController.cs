@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,7 +17,11 @@ public class PlayerController : MonoBehaviour
     public bool punchActive; //is punch active?
     public int playerHealth; //player's HP
 
+    public Sprite[] HealthSprites;
+    public Sprite HealthUI;
+
     private Rigidbody2D rb2d;
+    private PlayerController player;
 
     public bool knockFromRight;
 
@@ -25,6 +30,8 @@ public class PlayerController : MonoBehaviour
     {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         playerHealth = 5;
+
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     void FixedUpdate()
@@ -99,6 +106,8 @@ public class PlayerController : MonoBehaviour
         {
             GameObject.Find("UrnNewFull").GetComponent<BoxCollider2D>().enabled = true;
         }
+
+        HealthUI = HealthSprites[player.playerHealth];
 
     }
 

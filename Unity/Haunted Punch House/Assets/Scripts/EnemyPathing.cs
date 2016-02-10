@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class EnemyPathing : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class EnemyPathing : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
+
     private bool grounded; //true on ground, false in air
 
     private PlayerController player;
