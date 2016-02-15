@@ -11,6 +11,8 @@ public class EnemyPathing : MonoBehaviour
     public float groundCheckRadius;
     public LayerMask whatIsGround;
 
+    public int ghost;
+
     private bool grounded; //true on ground, false in air
 
     private PlayerController player;
@@ -49,6 +51,19 @@ public class EnemyPathing : MonoBehaviour
         if (col.gameObject.tag == "Block")
         {
             moveSpeed *= -1;
+
+            if (ghost == 1)
+            {
+                GameObject.Find("PlayerDetector1").GetComponent<EnemyDetectPlayer>().change = true;
+            }
+            else if (ghost == 2)
+            {
+                GameObject.Find("PlayerDetector2").GetComponent<EnemyDetectPlayer>().change = true;
+            }
+            else if (ghost == 3)
+            {
+                GameObject.Find("PlayerDetector3").GetComponent<EnemyDetectPlayer>().change = true;
+            }
         }
 
 
@@ -68,6 +83,5 @@ public class EnemyPathing : MonoBehaviour
         }
 
     }
-
 
 }
