@@ -80,6 +80,7 @@ public class EnemyPathing : MonoBehaviour
 
             StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
             player.playerHealth -= 1;
+            col.gameObject.GetComponent<PlayerController>().KnockbackSound();
         }
 
     }

@@ -18,7 +18,7 @@ public class PlayerAttack : MonoBehaviour {
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !attacking)
+        if (Input.GetMouseButtonDown(0) && !attacking)
         {
             attacking = true;
             attackTimer = attackCD;

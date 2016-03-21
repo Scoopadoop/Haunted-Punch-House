@@ -21,6 +21,7 @@ public class EnemyHealthManager : MonoBehaviour
         {
             //gameObject.GetComponent<Animation>().Play("death animation");
             //insert the death animation in the above line
+            LifeCounter.SaveState.Add(gameObject);
             Destroy(gameObject);
             GameObject.Find("PlayerControl").GetComponent<PlayerController>().enemies -= 1;
         }
