@@ -1,9 +1,17 @@
 fileFormatVersion: 2
-guid: e9b2ff700022e41aa99d4926ac6a1341
-timeCreated: 1458599392
+guid: 44aa1f33ba965af4ea6bb552f9c3a2ab
+timeCreated: 1458968762
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: a_wahler_spriteSheet_pc_walkRight_0
+    21300002: a_wahler_spriteSheet_pc_walkRight_1
+    21300004: a_wahler_spriteSheet_pc_walkRight_2
+    21300006: a_wahler_spriteSheet_pc_walkRight_3
+    21300008: a_wahler_spriteSheet_pc_walkRight_4
+    21300010: a_wahler_spriteSheet_pc_walkRight_5
+    21300012: a_wahler_spriteSheet_pc_walkRight_6
+    21300014: a_wahler_spriteSheet_pc_walkRight_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -38,7 +46,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +57,361 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: a_wahler_spriteSheet_pc_walkRight_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: -71}
+        - {x: 93, y: -132}
+        - {x: 93, y: -234}
+        - {x: 96, y: -247}
+        - {x: 138, y: -254}
+        - {x: 204, y: -249}
+        - {x: 204, y: -189}
+        - {x: 161, y: -127}
+        - {x: 129, y: -20}
+        - {x: 144, y: 57}
+        - {x: 141, y: 147}
+        - {x: 85, y: 193}
+        - {x: 71, y: 256}
+        - {x: -20, y: 256}
+        - {x: -53, y: 214}
+        - {x: -33, y: 205}
+        - {x: 1, y: 191}
+        - {x: -157, y: 156}
+        - {x: -204, y: 31}
+        - {x: -204, y: -123}
+        - {x: -201, y: -130}
+        - {x: -131, y: -101}
+        - {x: -117, y: 45}
+        - {x: -126, y: 105}
+        - {x: -53, y: 26}
+        - {x: -28, y: -101}
+        - {x: -30, y: -247}
+        - {x: -20, y: -256}
+        - {x: 95, y: -256}
+        - {x: 89, y: -211}
+        - {x: 76, y: -209}
+        - {x: 31, y: -202}
+    - name: a_wahler_spriteSheet_pc_walkRight_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 111, y: -248}
+        - {x: 208, y: -247}
+        - {x: 216, y: -255}
+        - {x: 216, y: -127}
+        - {x: 155, y: 128}
+        - {x: 143, y: 158}
+        - {x: 72, y: 160}
+        - {x: 66, y: 164}
+        - {x: 63, y: 165}
+        - {x: 53, y: 171}
+        - {x: 69, y: 163}
+        - {x: 83, y: 169}
+        - {x: 97, y: 203}
+        - {x: 80, y: 256}
+        - {x: -52, y: 256}
+        - {x: -145, y: 136}
+        - {x: -185, y: 25}
+        - {x: -210, y: -49}
+        - {x: -216, y: -75}
+        - {x: -216, y: -95}
+        - {x: -195, y: -115}
+        - {x: -147, y: -94}
+        - {x: -112, y: 41}
+        - {x: -123, y: 42}
+        - {x: -128, y: 41}
+        - {x: -30, y: 68}
+        - {x: -41, y: -45}
+        - {x: -8, y: -256}
+        - {x: 98, y: -256}
+        - {x: 103, y: -247}
+        - {x: 102, y: -231}
+        - {x: 92, y: -209}
+    - name: a_wahler_spriteSheet_pc_walkRight_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -210}
+        - {x: 108, y: -143}
+        - {x: 117, y: -256}
+        - {x: 131, y: -256}
+        - {x: 219, y: -251}
+        - {x: 227, y: -248}
+        - {x: 227, y: -200}
+        - {x: 219, y: -181}
+        - {x: 183, y: -73}
+        - {x: 135, y: 69}
+        - {x: 164, y: 128}
+        - {x: 155, y: 151}
+        - {x: 75, y: 164}
+        - {x: 66, y: 164}
+        - {x: 84, y: 165}
+        - {x: 99, y: 167}
+        - {x: 106, y: 232}
+        - {x: 94, y: 256}
+        - {x: -45, y: 256}
+        - {x: -42, y: 181}
+        - {x: -137, y: 134}
+        - {x: -225, y: -45}
+        - {x: -227, y: -55}
+        - {x: -227, y: -96}
+        - {x: -187, y: -107}
+        - {x: -167, y: -89}
+        - {x: -106, y: 32}
+        - {x: -92, y: 103}
+        - {x: -29, y: 31}
+        - {x: 2, y: -256}
+        - {x: 108, y: -256}
+        - {x: 109, y: -255}
+        - {x: 113, y: -248}
+        - {x: 113, y: -232}
+    - name: a_wahler_spriteSheet_pc_walkRight_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -76}
+        - {x: 122, y: -156}
+        - {x: 133, y: -256}
+        - {x: 150, y: -256}
+        - {x: 240, y: -252}
+        - {x: 243, y: -242}
+        - {x: 243, y: -211}
+        - {x: 234, y: -197}
+        - {x: 190, y: -131}
+        - {x: 211, y: -55}
+        - {x: 144, y: 61}
+        - {x: 187, y: 144}
+        - {x: 117, y: 174}
+        - {x: 123, y: 226}
+        - {x: 100, y: 256}
+        - {x: 30, y: 256}
+        - {x: -20, y: 243}
+        - {x: -10, y: 178}
+        - {x: -110, y: 140}
+        - {x: -150, y: 88}
+        - {x: -243, y: -40}
+        - {x: -243, y: -72}
+        - {x: -226, y: -91}
+        - {x: -203, y: -99}
+        - {x: -118, y: 3}
+        - {x: -118, y: 40}
+        - {x: -120, y: 42}
+        - {x: -36, y: 99}
+        - {x: -7, y: 24}
+        - {x: 18, y: -256}
+        - {x: 125, y: -256}
+        - {x: 129, y: -248}
+        - {x: 129, y: -232}
+        - {x: 119, y: -210}
+    - name: a_wahler_spriteSheet_pc_walkRight_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 98, y: -76}
+        - {x: 122, y: -156}
+        - {x: 133, y: -256}
+        - {x: 150, y: -256}
+        - {x: 240, y: -252}
+        - {x: 243, y: -242}
+        - {x: 243, y: -211}
+        - {x: 234, y: -197}
+        - {x: 190, y: -131}
+        - {x: 211, y: -55}
+        - {x: 144, y: 61}
+        - {x: 187, y: 144}
+        - {x: 117, y: 174}
+        - {x: 123, y: 226}
+        - {x: 100, y: 256}
+        - {x: 30, y: 256}
+        - {x: -20, y: 243}
+        - {x: -10, y: 178}
+        - {x: -110, y: 140}
+        - {x: -150, y: 88}
+        - {x: -243, y: -40}
+        - {x: -243, y: -72}
+        - {x: -226, y: -91}
+        - {x: -203, y: -99}
+        - {x: -118, y: 3}
+        - {x: -118, y: 40}
+        - {x: -120, y: 42}
+        - {x: -36, y: 99}
+        - {x: -7, y: 24}
+        - {x: 18, y: -256}
+        - {x: 125, y: -256}
+        - {x: 129, y: -248}
+        - {x: 129, y: -232}
+        - {x: 119, y: -210}
+    - name: a_wahler_spriteSheet_pc_walkRight_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: -210}
+        - {x: 108, y: -143}
+        - {x: 117, y: -256}
+        - {x: 131, y: -256}
+        - {x: 219, y: -251}
+        - {x: 227, y: -248}
+        - {x: 227, y: -200}
+        - {x: 219, y: -181}
+        - {x: 183, y: -73}
+        - {x: 135, y: 69}
+        - {x: 164, y: 128}
+        - {x: 155, y: 151}
+        - {x: 75, y: 164}
+        - {x: 66, y: 164}
+        - {x: 84, y: 165}
+        - {x: 99, y: 167}
+        - {x: 106, y: 232}
+        - {x: 94, y: 256}
+        - {x: -45, y: 256}
+        - {x: -42, y: 181}
+        - {x: -137, y: 134}
+        - {x: -225, y: -45}
+        - {x: -227, y: -55}
+        - {x: -227, y: -96}
+        - {x: -187, y: -107}
+        - {x: -167, y: -89}
+        - {x: -106, y: 32}
+        - {x: -92, y: 103}
+        - {x: -29, y: 31}
+        - {x: 2, y: -256}
+        - {x: 108, y: -256}
+        - {x: 109, y: -255}
+        - {x: 113, y: -248}
+        - {x: 113, y: -232}
+    - name: a_wahler_spriteSheet_pc_walkRight_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 92, y: -210}
+        - {x: 105, y: -236}
+        - {x: 111, y: -249}
+        - {x: 208, y: -251}
+        - {x: 216, y: -240}
+        - {x: 216, y: -208}
+        - {x: 164, y: -131}
+        - {x: 148, y: 156}
+        - {x: 64, y: 164}
+        - {x: 55, y: 164}
+        - {x: 73, y: 165}
+        - {x: 88, y: 167}
+        - {x: 95, y: 232}
+        - {x: 71, y: 253}
+        - {x: 58, y: 256}
+        - {x: 16, y: 256}
+        - {x: -23, y: 235}
+        - {x: -21, y: 203}
+        - {x: -30, y: 161}
+        - {x: -141, y: 148}
+        - {x: -216, y: -23}
+        - {x: -216, y: -112}
+        - {x: -175, y: -112}
+        - {x: -155, y: -91}
+        - {x: -116, y: 40}
+        - {x: -35, y: 96}
+        - {x: -29, y: -43}
+        - {x: -9, y: -256}
+        - {x: 97, y: -256}
+        - {x: 98, y: -255}
+        - {x: 102, y: -248}
+        - {x: 102, y: -232}
+    - name: a_wahler_spriteSheet_pc_walkRight_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 79, y: -210}
+        - {x: 92, y: -131}
+        - {x: 92, y: -249}
+        - {x: 199, y: -249}
+        - {x: 204, y: -248}
+        - {x: 204, y: -158}
+        - {x: 183, y: -115}
+        - {x: 160, y: 135}
+        - {x: 129, y: 158}
+        - {x: 66, y: 160}
+        - {x: 55, y: 166}
+        - {x: 60, y: 164}
+        - {x: 77, y: 170}
+        - {x: 118, y: 238}
+        - {x: 72, y: 256}
+        - {x: -30, y: 256}
+        - {x: -35, y: 248}
+        - {x: -40, y: 206}
+        - {x: -25, y: 208}
+        - {x: -23, y: 210}
+        - {x: -40, y: 164}
+        - {x: -151, y: 149}
+        - {x: -191, y: 53}
+        - {x: -204, y: -23}
+        - {x: -204, y: -111}
+        - {x: -201, y: -125}
+        - {x: -132, y: -93}
+        - {x: -88, y: 100}
+        - {x: -38, y: -67}
+        - {x: -21, y: -256}
+        - {x: 86, y: -256}
+        - {x: 90, y: -247}
+        - {x: 89, y: -235}
+        - {x: 86, y: -220}
     outline: []
   spritePackingTag: 
   userData: 
