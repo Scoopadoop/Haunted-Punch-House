@@ -30,9 +30,15 @@ public class PlayerController : MonoBehaviour
 
     public bool knockFromRight;
 
+    Animator anim;
+    float jumpTime, jumpDelay = .5f;
+    bool jumped;
+
+
     // Use this for initialization
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         playerHealth = 20;
         Cursor.visible = false;
@@ -43,6 +49,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        grounded = true;
     }
 
 
@@ -55,20 +62,48 @@ public class PlayerController : MonoBehaviour
             Cursor.visible = true;
         }
   
-        if ((Input.GetKeyDown(KeyCode.Space) && grounded || (Input.GetKeyDown(KeyCode.W)) && grounded))
+        
+
+        /* if (Input.GetKey(KeyCode.D))
+         {
+             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);//gets value of character that he already has while moving up or down
+         }
+
+         if (Input.GetKey(KeyCode.A))
+         {
+             GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+         } */
+
+        anim.SetFloat("moveSpeed", Mathf.Abs(Input.GetAxis("Horizontal"))); //sets the float paramater of the animation 
+        if (Input.GetAxisRaw("Horizontal") > 0)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);//gets value of character that he already has while moving sideways
+            transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            //transform.eulerAngles = new Vector2(0, 0); //this sets the rotation of gameobject
+        }
+
+
+        if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            transform.Translate(Vector3.left * moveSpeed * Time.deltaTime);
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            //transform.eulerAngles = new Vector2(0, 180); //this sets the rotation of gameobject
+        }
+        if (Input.GetKeyDown(KeyCode.Space) && grounded)// || (Input.GetKeyDown(KeyCode.W)) && grounded))
+        {
+           GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x, jumpHeight);//gets value of character that he already has while moving sideways
             GetComponent<AudioSource>().Play();
+            //GetComponent<Rigidbody2D>().AddForce(transform.up * 200f);
+            jumpTime = jumpDelay;
+            anim.SetTrigger("jump");
+            jumped = true;
         }
-
-        if (Input.GetKey(KeyCode.D))
+        jumpTime -= Time.deltaTime;
+        if(jumpTime<= 0 && grounded && jumped)   //Sets PC to switch to "landed" when not jumped and grounded
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);//gets value of character that he already has while moving up or down
-        }
-
-        if (Input.GetKey(KeyCode.A))
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+            anim.SetTrigger("land");
+            jumped = false;
+            
         }
         if (Input.GetMouseButtonDown(0))
         {
@@ -83,26 +118,26 @@ public class PlayerController : MonoBehaviour
            
         }
 
-        if (GetComponent<Rigidbody2D>().velocity.x > 3.0)
-        {
-            transform.Find("Body").transform.localScale = new Vector3(1f, 1f, 1f);
+      //  if (GetComponent<Rigidbody2D>().velocity.x > 3.0)
+      //  {
+      //      transform.Find("Body").transform.localScale = new Vector3(1f, 1f, 1f);
             /*Transform[] allChildren = GetComponentsInChildren<Transform>();
             foreach (Transform child in allChildren)
             {
                 child.localScale = new Vector3(1, 1, 1);
             }
             transform.localScale = new Vector3(0.5f, 0.5f, 1f);*/
-        }
-        else if (GetComponent<Rigidbody2D>().velocity.x < -3.0)
-        {
-            transform.Find("Body").transform.localScale = new Vector3(-1f, 1f, 1f);
+     //   }
+     //   else if (GetComponent<Rigidbody2D>().velocity.x < -3.0)
+     //   {
+       //          transform.Find("Body").transform.localScale = new Vector3(-1f, 1f, 1f);
             /*Transform[] allChildren = GetComponentsInChildren<Transform>();
             foreach (Transform child in allChildren)
             {
                 child.localScale = new Vector3(-1, 1, 1);
             }
             transform.localScale = new Vector3(-0.5f, 0.5f, 1f);*/
-        }
+       // } 
 
         if (playerHealth <= 0)
         {
