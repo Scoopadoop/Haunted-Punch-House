@@ -26,13 +26,14 @@ public class EnemyPathing : MonoBehaviour
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+        
     }
 
 
     // Update is called once per frame
     void Update()
     {
-
+       
         transform.Translate(new Vector3(moveSpeed, 0, 0) * Time.deltaTime);
 
         if (moveSpeed > 0)
@@ -81,6 +82,7 @@ public class EnemyPathing : MonoBehaviour
             StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
             player.playerHealth -= 1;
             col.gameObject.GetComponent<PlayerController>().KnockbackSound();
+            
         }
 
     }

@@ -20,6 +20,7 @@ public class PlayerAttack : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0) && !attacking)
         {
+            anim.SetTrigger("punch");
             attacking = true;
             attackTimer = attackCD;
             attackTrigger.enabled = true;
@@ -28,12 +29,14 @@ public class PlayerAttack : MonoBehaviour {
 
         if (attacking)
         {
+            anim.SetTrigger("punchOver");
             if (attackTimer > 0)
             {
                 attackTimer -= Time.deltaTime;
             }
             else
             {
+
                 attacking = false;
                 attackTrigger.enabled = false;
             }

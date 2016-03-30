@@ -33,12 +33,13 @@ public class PlayerController : MonoBehaviour
     Animator anim;
     float jumpTime, jumpDelay = .5f;
     bool jumped;
-
+  
 
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
+      
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         playerHealth = 20;
         Cursor.visible = false;
@@ -49,7 +50,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        grounded = true;
+        grounded = true; //this is making our character double jump but cannot jump at all without it. NEEDS FIXING
     }
 
 
@@ -97,12 +98,14 @@ public class PlayerController : MonoBehaviour
             jumpTime = jumpDelay;
             anim.SetTrigger("jump");
             jumped = true;
+           
         }
         jumpTime -= Time.deltaTime;
         if(jumpTime<= 0 && grounded && jumped)   //Sets PC to switch to "landed" when not jumped and grounded
         {
             anim.SetTrigger("land");
             jumped = false;
+            
             
         }
         if (Input.GetMouseButtonDown(0))
@@ -112,7 +115,8 @@ public class PlayerController : MonoBehaviour
             {
                 punchActive = false;
                 punchTimer = 1.0f;
-                transform.Find("a_wahler_pc_upperArm_Right").transform.Find("a_wahler_pc_foreArm_Right").GetComponent<Rigidbody2D>().velocity = new Vector2(50 * (transform.Find("Body").localScale.x), 25);
+               
+                //transform.Find("a_wahler_pc_upperArm_Right").transform.Find("a_wahler_pc_foreArm_Right").GetComponent<Rigidbody2D>().velocity = new Vector2(50 * (transform.Find("Body").localScale.x), 25);
                 gameObject.GetComponent<AudioSource>().PlayOneShot(PC_Attack);
             }
            
