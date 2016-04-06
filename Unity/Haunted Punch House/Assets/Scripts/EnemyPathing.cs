@@ -35,6 +35,7 @@ public class EnemyPathing : MonoBehaviour
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         
+
     }
 
 

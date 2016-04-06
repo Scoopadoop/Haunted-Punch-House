@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
       
         rb2d = gameObject.GetComponent<Rigidbody2D>();
-        playerHealth = 20;
+        playerHealth = 10;
         Cursor.visible = false;
 
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
         //grounded = true; //this is making our character double jump but cannot jump at all without it. NEEDS FIXING
+       anim.SetInteger("health", playerHealth);
     }
 
 
@@ -206,7 +207,7 @@ public class PlayerController : MonoBehaviour
                 rb2d.AddForce(new Vector3(knockbackDir.x * 500, 1000, transform.position.z));
             }
 
-			gameObject.GetComponent<Animation>().Play ("hurt_flash");
+			//gameObject.GetComponent<Animation>().Play ("hurt_flash");
         }
         yield return 0;
 
