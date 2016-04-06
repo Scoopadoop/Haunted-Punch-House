@@ -3,7 +3,7 @@ using System.Collections;
 
 public class PlayerAttack : MonoBehaviour {
 
-    private bool attacking = false;
+    public bool attacking = false;
     private float attackTimer = 1;
     private float attackCD = 0.3f;
     private Animator anim;
@@ -24,7 +24,8 @@ public class PlayerAttack : MonoBehaviour {
             attacking = true;
             attackTimer = attackCD;
             attackTrigger.enabled = true;
-            transform.Find("AttackTrigger").localPosition = new Vector3((2.23f * (transform.Find("Body").localScale.x)), 0f, 0f);
+            //transform.Find("AttackTrigger").localPosition = new Vector3((2.23f * (transform.Find("Body").localScale.x)), 0f, 0f);
+            //attackTrigger.enabled = true;
         }
 
         if (attacking)
@@ -36,7 +37,6 @@ public class PlayerAttack : MonoBehaviour {
             }
             else
             {
-
                 attacking = false;
                 attackTrigger.enabled = false;
             }

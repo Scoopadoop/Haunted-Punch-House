@@ -10,6 +10,9 @@ public class EnemyPathing : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
+    private float damageTimer = .5f;
+    public Collider2D damageTrigger;
+    private Animator anim;
 
     public int ghost;
 
@@ -17,6 +20,11 @@ public class EnemyPathing : MonoBehaviour
 
     private PlayerController player;
 
+    void Awake()
+    {
+        anim = gameObject.GetComponent<Animator>();
+        //damageTrigger.enabled = false;
+    }
     // Use this for initialization
     void Start()
     {
@@ -33,7 +41,7 @@ public class EnemyPathing : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        damageTimer -= Time.deltaTime;
         transform.Translate(new Vector3(moveSpeed, 0, 0) * Time.deltaTime);
 
         if (moveSpeed > 0)
@@ -67,22 +75,26 @@ public class EnemyPathing : MonoBehaviour
             }
         }
 
-
+        
         if (col.gameObject.tag == "Player")
         {
-            if (col.transform.position.x < transform.position.x)
+            if (damageTimer <= 0)
             {
-                player.knockFromRight = true;
-            }
-            else
-            {
-                player.knockFromRight = false;
+                if (col.transform.position.x < transform.position.x)
+                {
+                    player.knockFromRight = true;
+                }
+                else
+                {
+                    player.knockFromRight = false;
+                }
+
+                StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
+                player.playerHealth -= 1;
+                col.gameObject.GetComponent<PlayerController>().KnockbackSound();
+                damageTimer = .5f;
             }
 
-            StartCoroutine(player.Knockback(0.02f, 300, player.transform.position));
-            player.playerHealth -= 1;
-            col.gameObject.GetComponent<PlayerController>().KnockbackSound();
-            
         }
 
     }

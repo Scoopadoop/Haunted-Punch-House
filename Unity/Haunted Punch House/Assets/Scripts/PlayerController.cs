@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
-    private bool grounded; //true on ground, false in air
+    public bool grounded; //true on ground, false in air
     public float punchTimer = 1.0f; //duration of punch hitbox 
     public bool punchActive; //is punch active?
     public int playerHealth; //player's HP
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
-        grounded = true; //this is making our character double jump but cannot jump at all without it. NEEDS FIXING
+        //grounded = true; //this is making our character double jump but cannot jump at all without it. NEEDS FIXING
     }
 
 
@@ -116,7 +116,7 @@ public class PlayerController : MonoBehaviour
                 punchActive = false;
                 punchTimer = 1.0f;
                
-                //transform.Find("a_wahler_pc_upperArm_Right").transform.Find("a_wahler_pc_foreArm_Right").GetComponent<Rigidbody2D>().velocity = new Vector2(50 * (transform.Find("Body").localScale.x), 25);
+               // transform.Find("a_wahler_pc_upperArm_Right").transform.Find("a_wahler_pc_foreArm_Right").GetComponent<Rigidbody2D>().velocity = new Vector2(50 * (transform.Find("Body").localScale.x), 25);
                 gameObject.GetComponent<AudioSource>().PlayOneShot(PC_Attack);
             }
            
